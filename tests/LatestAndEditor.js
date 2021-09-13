@@ -15,8 +15,8 @@ describe(`Latest category and editor' picks`, () => {
     const text = await firstTitle.getText();
     await (await HomePage.latestArticle1).click();
     await (await HomePage.titleArticle).waitForDisplayed();
-    const title = HomePage.titleArticle;
-    await (await expect(title)).toHaveTextContaining(text);
+    const title1 = HomePage.titleArticle;
+    await (await expect(title1)).toHaveTextContaining(text);
     await HomePage.backPage();
 
     const secondTitle = await title[1];
@@ -46,8 +46,8 @@ describe(`Latest category and editor' picks`, () => {
   });
 
   it("Editor`s Picks", async () => {
-    // await Menu.aboutButton.click()
-    const alltitle = await $$(".c-editors-picks__title");
+    //await Menu.approveButton.click();
+    const alltitle = await $$(".c-editors-picks__post");
     const firstTitle = await alltitle[0];
     const text = await firstTitle.getText();
     await HomePage.editorsPicks1.click();
@@ -61,7 +61,7 @@ describe(`Latest category and editor' picks`, () => {
     await (await HomePage.editorsPicks2).click();
     const title2 = await HomePage.titleArticle;
     await (await expect(title2)).toHaveTextContaining(text2);
-    await HomePage.backPage;
+    await HomePage.backPage();
 
     const thirdTitle = await alltitle[2];
     const text3 = await thirdTitle.getText();

@@ -11,8 +11,8 @@ describe("Articles pages", () => {
     await (await Menu.approveButton).click();
     await (await Menu.cuteButton).click();
     await browser.pause(4000);
-    await (await CutePage.subscribeLabel).click();
-    await (await CutePage.subscribeLabel).addValue(SubscribePage.email());
+    await (await CutePage.subscribeEmailInput).click();
+    await (await CutePage.subscribeEmailInput).addValue(SubscribePage.email());
     await (await CutePage.emailButton).click();
     await (await expect(SubscribePage.confirmSubscribe)).toBeDisplayed();
   });
@@ -22,18 +22,12 @@ describe("Articles pages", () => {
     await (await Menu.cuteButton).click();
     await browser.pause(2000);
     await (await CutePage.trendingArticle1).click();
-    await (
-      await expect(browser)
-    ).toHaveUrl(
-      "https://astage.honesttopaws.com/g/test-post-draft?as=799&bdk=0"
-    );
+    await (await expect(browser)).toHaveUrlContaining("test-post-draft");
     await HomePage.backPage();
     await browser.pause(4000);
 
     await (await CutePage.trendingArticle2).click();
-    await (
-      await expect(browser)
-    ).toHaveUrl("https://astage.honesttopaws.com/g/get-jinxed?as=799&bdk=0");
+    await (await expect(browser)).toHaveUrlContaining("get-jinxed");
   });
 
   it("More from Honest To Paws", async () => {
@@ -44,9 +38,7 @@ describe("Articles pages", () => {
     await (await CutePage.moreArticle1).click();
     await (
       await expect(browser)
-    ).toHaveUrl(
-      "https://astage.honesttopaws.com/g/iconic-films-backstage-photos-copy-copy-copy-copy?as=799&bdk=0"
-    );
+    ).toHaveUrlContaining("iconic-films-backstage-photos-copy-copy-copy-copy");
     await HomePage.backPage();
 
     await browser.pause(2000);
@@ -56,9 +48,7 @@ describe("Articles pages", () => {
     await (await CutePage.moreArticle2).click();
     await (
       await expect(browser)
-    ).toHaveUrl(
-      "https://astage.honesttopaws.com/g/iconic-films-backstage-photos-copy-copy-copy?as=799&bdk=0"
-    );
+    ).toHaveUrlContaining("iconic-films-backstage-photos-copy-copy-copy");
     await HomePage.backPage();
 
     await browser.pause(2000);
@@ -67,13 +57,11 @@ describe("Articles pages", () => {
     await (await CutePage.moreArticle3).click();
     await (
       await expect(browser)
-    ).toHaveUrl(
-      "https://astage.honesttopaws.com/g/iconic-films-backstage-photos-copy-copy?as=799&bdk=0"
-    );
+    ).toHaveUrlContaining("iconic-films-backstage-photos-copy-copy");
   });
 
-  it.only("Social media", async () => {
-    await (await Menu.approveButton).click();
+  it("Social media", async () => {
+    //await (await Menu.approveButton).click();
     await (await Menu.cuteButton).click();
     await browser.pause(2000);
 

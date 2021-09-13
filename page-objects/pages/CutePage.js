@@ -1,5 +1,5 @@
 class cute {
-  get subscribeLabel() {
+  get subscribeEmailInput() {
     return $(".c-subscribe-email__input");
   }
 

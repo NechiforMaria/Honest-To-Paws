@@ -31,7 +31,6 @@ describe("Home page", () => {
     //await Menu.approveButton.click()
     await (await Menu.moreButton).click();
     await (await Menu.navbar).isDisplayed();
-    await browser.pause(2000);
     await (await Menu.aboutButton).click();
     await (await Menu.title).waitForExist();
     await (await expect(Menu.title)).toHaveText("About Us");
@@ -39,19 +38,16 @@ describe("Home page", () => {
 
     await (await Menu.privacyPolicyButton).waitForClickable();
     await (await Menu.privacyPolicyButton).click();
-    await browser.pause(3000);
     await (await expect(Menu.title)).toHaveText("Privacy Policy");
     await (await Menu.moreButton).click();
 
     await (await Menu.dmcaButton).waitForClickable();
     await (await Menu.dmcaButton).click();
-    await browser.pause(3000);
     await (await expect(Menu.title)).toHaveText("DMCA Policy");
     await Menu.moreButton.click();
 
     await (await Menu.advertisingButton).waitForClickable();
     await (await Menu.advertisingButton).click();
-    await browser.pause(3000);
     await (await expect(Menu.title)).toHaveText("Advertising Interest");
   });
 
@@ -110,19 +106,19 @@ describe("Home page", () => {
 
   it("Footer", async () => {
     //await Menu.approveButton.click()
-    await browser.pause(2000);
     await (await HomePage.aboutFooterButton).click();
+    await (await expect(Menu.title)).toHaveText("About Us");
     await HomePage.backPage();
-    await browser.pause(2000);
 
     await HomePage.privacyPolicyFooterButton.click();
+    await (await expect(Menu.title)).toHaveText("Privacy Policy");
     await HomePage.backPage();
-    await browser.pause(2000);
 
     await (await HomePage.dmcaFooterButton).click();
+    await (await expect(Menu.title)).toHaveText("DMCA Policy");
     await HomePage.backPage();
-    await browser.pause(2000);
 
     await (await HomePage.advertisingFooterButton).click();
+    await (await expect(Menu.title)).toHaveText("Advertising Interest");
   });
 });

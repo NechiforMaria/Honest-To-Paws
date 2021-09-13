@@ -10,43 +10,90 @@ describe("All the articles", () => {
   it("Click on the all articles", async () => {
     await (await Menu.approveButton).click();
     await (await Menu.cuteButton).click();
-    await (await AllArticles.first).waitForExist({ timeout: 5000 });
-    await (await AllArticles.first).click();
+    await (await AllArticles.firstArticle).waitForExist();
+    await (await AllArticles.firstArticle).click();
+    await await expect(browser).toHaveUrlContaining("people-looked-past-pff");
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.second).waitForExist({ timeout: 5000 });
-    await (await AllArticles.second).click();
+    await (await AllArticles.secondArticle).waitForExist();
+    await (await AllArticles.secondArticle).click();
+    await await expect(browser).toHaveUrlContaining("get-jinxed");
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.third).waitForExist({ timeout: 5000 });
-    await (await AllArticles.third).click();
+    await (await AllArticles.thirdArticle).waitForExist();
+    await (await AllArticles.thirdArticle).click();
+    await await expect(browser).toHaveUrlContaining(
+      "iconic-films-backstage-photos-copy-copy-copy-copy"
+    );
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.fourth).waitForExist({ timeout: 5000 });
-    await (await AllArticles.fourth).click();
+    await (await AllArticles.fourthArticle).waitForExist();
+    await (await AllArticles.fourthArticle).click();
+    await await expect(browser).toHaveUrlContaining(
+      "iconic-films-backstage-photos-copy-copy-copy"
+    );
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.fifth).waitForExist({ timeout: 5000 });
-    await (await AllArticles.fifth).click();
+    await (await AllArticles.fifthArticle).waitForExist();
+    await (await AllArticles.fifthArticle).click();
+    await await expect(browser).toHaveUrlContaining(
+      "iconic-films-backstage-photos-copy-copy"
+    );
     await HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.sixth).waitForExist({ timeout: 5000 });
-    await (await AllArticles.sixth).click();
+    await (await AllArticles.sixthArticle).waitForExist();
+    await (await AllArticles.sixthArticle).click();
+    await await expect(browser).toHaveUrlContaining(
+      "iconic-films-backstage-photos-copy"
+    );
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.seventh).waitForExist({ timeout: 5000 });
-    await (await AllArticles.seventh).click();
+    await (await AllArticles.seventhArticle).waitForExist();
+    await (await AllArticles.seventhArticle).click();
+    await await expect(browser).toHaveUrlContaining("ecommerce");
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.eighth).waitForExist({ timeout: 5000 });
-    await (await AllArticles.eighth).click();
+    await (await AllArticles.eighthArticle).waitForExist();
+    await (await AllArticles.eighthArticle).click();
+    await await expect(browser).toHaveUrlContaining(
+      "how-to-keep-your-health-insurance-when-furloughed-or-laid-off"
+    );
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.ninth).waitForExist({ timeout: 5000 });
-    await (await AllArticles.ninth).click();
+    await (await AllArticles.ninthArticle).waitForExist();
+    await (await AllArticles.ninthArticle).click();
+    await await expect(browser).toHaveUrlContaining("beatles-lyrics");
     HomePage.backPage();
+    await await expect(browser).toHaveUrl(
+      "https://astage.honesttopaws.com/category/cute"
+    );
 
-    await (await AllArticles.tenth).waitForExist();
-    await (await AllArticles.tenth).click();
+    await (await AllArticles.tenthArticle).waitForExist();
+    await (await AllArticles.tenthArticle).click();
+    await await expect(browser).toHaveUrlContaining("delusional-house-cats");
   });
 });

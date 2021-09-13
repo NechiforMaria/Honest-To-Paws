@@ -1,41 +1,41 @@
 class AllArticles {
-  get first() {
+  get firstArticle() {
     return $$(".c-link__cover")[0];
   }
 
-  get second() {
+  get secondArticle() {
     return $$(".c-link__cover")[1];
   }
 
-  get third() {
+  get thirdArticle() {
     return $$(".c-link__cover")[2];
   }
 
-  get fourth() {
+  get fourthArticle() {
     return $$(".c-link__cover")[3];
   }
 
-  get fifth() {
+  get fifthArticle() {
     return $$(".c-link__cover")[4];
   }
 
-  get sixth() {
+  get sixthArticle() {
     return $$(".c-link__cover")[5];
   }
 
-  get seventh() {
+  get seventhArticle() {
     return $$(".c-link__cover")[6];
   }
 
-  get eighth() {
+  get eighthArticle() {
     return $$(".c-link__cover")[7];
   }
 
-  get ninth() {
+  get ninthArticle() {
     return $$(".c-link__cover")[8];
   }
 
-  get tenth() {
+  get tenthArticle() {
     return $$(".c-link__cover")[9];
   }
 

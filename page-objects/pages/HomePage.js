@@ -53,19 +53,19 @@ class HomePage {
     return $$(".c-editors-picks__post")[2];
   }
 
-  get cutearticle1() {
+  get cuteArticle1() {
     return $$(".c-link__cover")[0];
   }
 
-  get cutearticle2() {
+  get cuteArticle2() {
     return $$(".c-category__post")[1];
   }
 
-  get cutearticle3() {
+  get cuteArticle3() {
     return $$(".c-category__post")[2];
   }
 
-  get cutearticle4() {
+  get cuteArticle4() {
     return $$(".c-category__post")[3];
   }
 
@@ -73,19 +73,19 @@ class HomePage {
     return $$(".c-widget-image-header .c-link__more-cat-hc")[0];
   }
 
-  get fuunyarticle1() {
+  get fuunyArticle1() {
     return $$(".c-link__cover")[1];
   }
 
-  get fuunyarticle2() {
+  get fuunyArticle2() {
     return $$(".c-category__post")[5];
   }
 
-  get fuunyarticle3() {
+  get fuunyArticle3() {
     return $$(".c-category__post")[6];
   }
 
-  get fuunyarticle4() {
+  get fuunyArticle4() {
     return $$(".c-category__post")[7];
   }
 
@@ -93,19 +93,19 @@ class HomePage {
     return $$(".c-widget-image-header .c-link__more-cat-hc")[1];
   }
 
-  get goodarticle1() {
+  get goodArticle1() {
     return $$(".c-link__cover")[2];
   }
 
-  get goodarticle2() {
+  get goodArticle2() {
     return $$(".c-category__post")[9];
   }
 
-  get goodarticle3() {
+  get goodArticle3() {
     return $$(".c-category__post")[10];
   }
 
-  get goodarticle4() {
+  get goodArticle4() {
     return $$(".c-category__post")[11];
   }
 
@@ -113,19 +113,19 @@ class HomePage {
     return $$(".c-widget-image-header .c-link__more-cat-hc")[2];
   }
 
-  get omgarticle1() {
+  get omgArticle1() {
     return $$(".c-link__cover")[3];
   }
 
-  get omgarticle2() {
+  get omgArticle2() {
     return $$(".c-category__post")[13];
   }
 
-  get omgarticle3() {
+  get omgArticle3() {
     return $$(".c-category__post")[14];
   }
 
-  get omgarticle4() {
+  get omgArticle4() {
     return $$(".c-category__post")[15];
   }
 
