@@ -6,13 +6,16 @@ import SubscribePage from "../page-objects/pages/SubscribePage";
 
 describe("Subscribe", () => {
   beforeEach(async () => {
-    await Homepage.openHomePage();
+    Homepage.openHomePage();
+    Menu.waitForExistHeader();
+    Menu.clickOnApproveButton();
   });
   it("Subscribe on the articles page", async () => {
-    await Menu.approveButton.click();
     await Menu.cuteButton.click();
     await CutePage.subscribeEmailInput.waitForDisplayed();
-    await (await CutePage.subscribeEmailInput).addValue(SubscribePage.email());
+    await (
+      await CutePage.subscribeEmailInput
+    ).addValue(SubscribePage.createValidEmail());
     await CutePage.emailButton.click();
     await expect(SubscribePage.confirmSubscribe).toBeDisplayed();
   });
@@ -32,7 +35,9 @@ describe("Subscribe", () => {
     await (await CutePage.emailButton).waitForDisplayed();
     await CutePage.emailButton.click();
     await (await SubscribePage.emailAddress).waitForDisplayed();
-    await (await SubscribePage.emailAddress).addValue(SubscribePage.email());
+    await (
+      await SubscribePage.emailAddress
+    ).addValue(SubscribePage.createValidEmail());
     await (await SubscribePage.firstName).waitForDisplayed();
     await SubscribePage.firstName.addValue("Ana");
     await (await SubscribePage.lastName).waitForDisplayed();

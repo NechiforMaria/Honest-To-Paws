@@ -3,10 +3,12 @@ const { default: Homepage } = require("../page-objects/pages/Homepage");
 
 describe("Search", () => {
   beforeEach(async () => {
-    await Homepage.openHomePage();
+    Homepage.openHomePage();
+    Menu.waitForExistHeader();
+    Menu.clickOnApproveButton();
   });
   it("Search with valid word", async () => {
-    await Menu.approveButton.click();
+    // await Menu.approveButton.click();
     await Menu.searchButton.click();
     const text = "Finish The Most Iconic Book Titles In History";
     await Menu.searchButton.setValue(text);

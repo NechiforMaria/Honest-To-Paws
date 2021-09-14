@@ -9,10 +9,12 @@ const {
 
 describe("Home page", () => {
   beforeEach(async () => {
-    await HomePage.openHomePage();
+    HomePage.openHomePage();
+    Menu.waitForExistHeader();
+    Menu.clickOnApproveButton();
   });
   it("Menu", async () => {
-    await (await Menu.approveButton).click();
+    //await (await Menu.approveButton).click();
     await (await Menu.cuteButton).click();
     await (await expect(Menu.header)).toHaveText("CUTE");
     await (await Menu.logo).click();

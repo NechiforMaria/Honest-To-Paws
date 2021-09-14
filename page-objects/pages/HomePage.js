@@ -41,15 +41,15 @@ class HomePage {
     return $$(".c-latest__post")[3];
   }
 
-  get editorsPicks1() {
+  get widgetEditorsFirstPost() {
     return $$(".c-editors-picks__post")[0];
   }
 
-  get editorsPicks2() {
+  get widgetEditorsSecondPost() {
     return $$(".c-editors-picks__post")[1];
   }
 
-  get editorsPicks3() {
+  get widgetEditorsThirdPost() {
     return $$(".c-editors-picks__post")[2];
   }
 
@@ -155,6 +155,14 @@ class HomePage {
 
   get footerContainer() {
     return $(".qa-page-footer__container");
+  }
+
+  allTitleLatestWidget() {
+    return $$(".c-latest__posts .c-latest__title");
+  }
+
+  allTitleEditorsWidget() {
+    return $$(".c-editors-picks__post");
   }
 }
 

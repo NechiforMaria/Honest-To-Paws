@@ -7,25 +7,27 @@ const {
 
 describe("Category and articles for category", () => {
   beforeEach(async () => {
-    await HomePage.openHomePage();
+    HomePage.openHomePage();
+    Menu.waitForExistHeader();
+    Menu.clickOnApproveButton();
   });
 
   it("Category", async () => {
-    await (await Menu.approveButton).click();
+    //await (await Menu.approveButton).click();
 
     await (await HomePage.cuteCategory).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Cute");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.funnyCategory).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Funny");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.goodCategory).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Good");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.omgCategory).click();
@@ -34,13 +36,14 @@ describe("Category and articles for category", () => {
 
   it("Articles for cute category", async () => {
     //await Menu.approveButton.click();
-    await (await HomePage.cutearticle1).click();
+    await (await HomePage.cuteArticle1).waitForExist();
+    await (await HomePage.cuteArticle1).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Cute");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
-    await (await HomePage.cuteaArticle2).waitForExist();
-
+    await browser.pause(1000);
+    //await (await HomePage.cuteaArticle2).waitForExist();
     await (await HomePage.cuteArticle2).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Cute");
     HomePage.backPage();
@@ -64,25 +67,25 @@ describe("Category and articles for category", () => {
     //await Menu.approveButton.click()
     await (await HomePage.fuunyArticle1).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Funny");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.fuunyArticle2).waitForExist();
     await (await HomePage.fuunyArticle2).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Funny");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.fuunyArticle3).waitForExist();
     await (await HomePage.fuunyArticle3).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Funny");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.fuunyArticle4).waitForExist();
     await (await HomePage.fuunyArticle4).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Funny");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.seeMoreFuunyButton).waitForExist();
@@ -95,7 +98,7 @@ describe("Category and articles for category", () => {
     await (await HomePage.goodArticle1).waitForExist();
     await (await HomePage.goodArticle1).click();
     await (await expect(AllArticles.galleryCategory)).toHaveText("Good");
-    await HomePage.backPage();
+    HomePage.backPage();
     await await expect(browser).toHaveUrl("https://astage.honesttopaws.com/");
 
     await (await HomePage.goodArticle2).waitForExist();

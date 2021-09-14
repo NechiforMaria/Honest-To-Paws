@@ -5,14 +5,18 @@ const { default: HomePage } = require("../page-objects/pages/Homepage");
 
 describe("Articles pages", () => {
   beforeEach(async () => {
-    await HomePage.openHomePage();
+    HomePage.openHomePage();
+    Menu.waitForExistHeader();
+    Menu.clickOnApproveButton();
   });
   it("Subscribe", async () => {
-    await (await Menu.approveButton).click();
+    // await (await Menu.approveButton).click();
     await (await Menu.cuteButton).click();
     await browser.pause(4000);
     await (await CutePage.subscribeEmailInput).click();
-    await (await CutePage.subscribeEmailInput).addValue(SubscribePage.email());
+    await (
+      await CutePage.subscribeEmailInput
+    ).addValue(SubscribePage.createValidEmail());
     await (await CutePage.emailButton).click();
     await (await expect(SubscribePage.confirmSubscribe)).toBeDisplayed();
   });
