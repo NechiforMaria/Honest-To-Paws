@@ -11,6 +11,7 @@ describe("All the articles", () => {
   });
 
   it("Click on the all articles", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await AllArticles.firstArticle).waitForExist();
     await (await AllArticles.firstArticle).click();

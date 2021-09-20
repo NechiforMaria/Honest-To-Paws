@@ -15,6 +15,7 @@ describe("Home page", () => {
     Menu.clickOnApproveButtonFirefox();
   });
   it("Menu", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await expect(await Menu.header).toHaveText("CUTE");
     await (await Menu.logo).click();
@@ -30,46 +31,54 @@ describe("Home page", () => {
   });
 
   it("Submenu", async () => {
+    await (await Menu.moreButton).waitForDisplayed();
     await (await Menu.moreButton).click();
     await (await Menu.navbar).isDisplayed();
     await (await Menu.aboutButton).click();
-    await (await Menu.title).waitForExist();
+    await (await Menu.title).waitForDisplayed();
     await expect(await Menu.title).toHaveText("About Us");
     await (await Menu.moreButton).click();
 
     await (await Menu.privacyPolicyButton).waitForClickable();
     await (await Menu.privacyPolicyButton).click();
+    await (await Menu.title).waitForDisplayed();
     await expect(await Menu.title).toHaveText("Privacy Policy");
     await (await Menu.moreButton).click();
 
     await (await Menu.dmcaButton).waitForClickable();
     await (await Menu.dmcaButton).click();
+    await (await Menu.title).waitForDisplayed();
     await expect(await Menu.title).toHaveText("DMCA Policy");
     await Menu.moreButton.click();
 
     await (await Menu.advertisingButton).waitForClickable();
     await (await Menu.advertisingButton).click();
+    await (await Menu.title).waitForDisplayed();
     await expect(await Menu.title).toHaveText("Advertising Interest");
   });
 
   it("Hamburger Menu first part", async () => {
     await browser.execute(() => window.scrollTo(0, 500));
+    await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
     await (await HamburgerMenu.hamburgerMenuButton).click();
     await (await HamburgerMenu.cuteButton).waitForExist();
 
     await (await HamburgerMenu.cuteButton).click();
+    await (await Menu.header).waitForDisplayed();
     await expect(await Menu.header).toHaveText("CUTE");
-    await (await HamburgerMenu.hamburgerMenuButton).waitForExist();
+    await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
 
     await browser.execute(() => window.scrollTo(0, 500));
     await (await HamburgerMenu.hamburgerMenuButton).click();
     await (await HamburgerMenu.funnyButton).click();
     await expect(await Menu.header).toHaveText("FUNNY");
+    await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
 
     browser.execute(() => window.scrollTo(0, 500));
     await (await HamburgerMenu.hamburgerMenuButton).click();
     await (await HamburgerMenu.goodButton).click();
     await expect(await Menu.header).toHaveText("GOOD");
+    await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
 
     browser.execute(() => window.scrollTo(0, 500));
     await (await HamburgerMenu.hamburgerMenuButton).click();
@@ -78,6 +87,7 @@ describe("Home page", () => {
   });
 
   it("Hamburger menu last part", async () => {
+    await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
     await browser.execute(() => window.scrollTo(0, 500));
     await (await HamburgerMenu.hamburgerMenuButton).click();
     await (await HamburgerMenu.aboutButton).click();
@@ -104,6 +114,7 @@ describe("Home page", () => {
   });
 
   it("Footer", async () => {
+    await (await HomePage.aboutFooterButton).waitForDisplayed();
     await (await HomePage.aboutFooterButton).click();
     await expect(await Menu.title).toHaveText("About Us");
     await HomePage.backPage();

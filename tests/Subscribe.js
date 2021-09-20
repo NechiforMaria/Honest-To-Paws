@@ -11,7 +11,9 @@ describe("Subscribe", () => {
     Menu.clickOnApproveButton();
     Menu.clickOnApproveButtonFirefox();
   });
+
   it("Subscribe on the articles page", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).waitForDisplayed();
     await (
@@ -22,16 +24,19 @@ describe("Subscribe", () => {
   });
 
   it("Subscribe with invalid email on the articles page ", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).waitForDisplayed();
-    await (await CutePage.subscribeEmailInput).addValue("text@gmail.com");
+    await (await CutePage.subscribeEmailInput).addValue("as@u.t.r.t.y");
     await (await CutePage.emailButton).click();
+    await (await SubscribePage.error).waitForDisplayed();
     await expect(await SubscribePage.error).toHaveTextContaining(
       "There are errors below"
     );
   });
 
   it("Subscribe after press email button", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.emailButton).waitForDisplayed();
     await (await CutePage.emailButton).click();
