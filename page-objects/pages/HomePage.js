@@ -157,11 +157,11 @@ class HomePage {
     return $(".qa-page-footer__container");
   }
 
-  allTitleLatestWidget() {
+  async allTitleLatestWidget() {
     return $$(".c-latest__posts .c-latest__title");
   }
 
-  allTitleEditorsWidget() {
+  async allTitleEditorsWidget() {
     return $$(".c-editors-picks__post");
   }
 }

@@ -3,6 +3,10 @@ class Menu {
     return $('[aria-label="Approve"]');
   }
 
+  get approveButtonFirefox() {
+    return $(".fc-button-label");
+  }
+
   get logo() {
     return $(".c-header__logo--HTP");
   }
@@ -82,6 +86,12 @@ class Menu {
   clickOnApproveButton() {
     if (this.approveButton.isExisting) {
       this.approveButton.click();
+    }
+  }
+
+  clickOnApproveButtonFirefox() {
+    if (this.approveButtonFirefox.isExisting) {
+      this.approveButtonFirefox.click();
     }
   }
 }

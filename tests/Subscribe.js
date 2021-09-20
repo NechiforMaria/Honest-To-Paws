@@ -9,42 +9,43 @@ describe("Subscribe", () => {
     Homepage.openHomePage();
     Menu.waitForExistHeader();
     Menu.clickOnApproveButton();
+    Menu.clickOnApproveButtonFirefox();
   });
   it("Subscribe on the articles page", async () => {
-    await Menu.cuteButton.click();
-    await CutePage.subscribeEmailInput.waitForDisplayed();
+    await (await Menu.cuteButton).click();
+    await (await CutePage.subscribeEmailInput).waitForDisplayed();
     await (
       await CutePage.subscribeEmailInput
     ).addValue(SubscribePage.createValidEmail());
-    await CutePage.emailButton.click();
-    await expect(SubscribePage.confirmSubscribe).toBeDisplayed();
+    await (await CutePage.emailButton).click();
+    await expect(await SubscribePage.confirmSubscribe).toBeDisplayed();
   });
 
   it("Subscribe with invalid email on the articles page ", async () => {
-    // await Menu.approveButton.click()
-    await Menu.cuteButton.click();
+    await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).waitForDisplayed();
-    await CutePage.subscribeEmailInput.addValue("text@gmail.com");
-    await CutePage.emailButton.click();
-    await expect(SubscribePage.error.toHaveText("There are errors below"));
+    await (await CutePage.subscribeEmailInput).addValue("text@gmail.com");
+    await (await CutePage.emailButton).click();
+    await expect(await SubscribePage.error).toHaveTextContaining(
+      "There are errors below"
+    );
   });
 
   it("Subscribe after press email button", async () => {
-    //await Menu.approveButton.click()
-    await Menu.cuteButton.click();
+    await (await Menu.cuteButton).click();
     await (await CutePage.emailButton).waitForDisplayed();
-    await CutePage.emailButton.click();
+    await (await CutePage.emailButton).click();
     await (await SubscribePage.emailAddress).waitForDisplayed();
     await (
       await SubscribePage.emailAddress
     ).addValue(SubscribePage.createValidEmail());
     await (await SubscribePage.firstName).waitForDisplayed();
-    await SubscribePage.firstName.addValue("Ana");
+    await (await SubscribePage.firstName).addValue("Ana");
     await (await SubscribePage.lastName).waitForDisplayed();
-    await SubscribePage.lastName.addValue("X");
+    await (await SubscribePage.lastName).addValue("X");
     await (await SubscribePage.submitButton).waitForDisplayed();
-    await SubscribePage.submitButton.click();
-    await expect(browser).toHaveUrl(
+    await (await SubscribePage.submitButton).click();
+    await expect(await browser).toHaveUrl(
       "https://honesttopaws.us3.list-manage.com/subscribe/post"
     );
   });

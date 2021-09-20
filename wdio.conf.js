@@ -20,7 +20,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ["./tests/Articles.js"],
+  specs: ["./tests/**.js"],
   // Patterns to exclude.
   exclude: [
     //'path/to/excluded/files'
@@ -55,11 +55,29 @@ exports.config = {
       maxInstances: 5,
       //
       browserName: "chrome",
+
       acceptInsecureCerts: true,
       // If outputDir is provided WebdriverIO can capture driver session logs
       // it is possible to configure which logTypes to include/exclude.
       // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
       // excludeDriverLogs: ['bugreport', 'server'],
+    },
+    {
+      browserName: "firefox",
+      services: [
+        [
+          "firefox-profile",
+          {
+            extensions: [
+              "/path/to/extensionA.xpi", // path to .xpi file
+              "/path/to/extensionB", // or path to unpacked Firefox extension
+            ],
+            "xpinstall.signatures.required": false,
+            "browser.startup.homepage": "https://webdriver.io",
+            legacy: true, // only use for firefox <= 55
+          },
+        ],
+      ],
     },
   ],
   //
@@ -109,8 +127,25 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ["chromedriver"],
-
+  services: [
+    "chromedriver",
+    [
+      "firefox-profile",
+      {
+        extensions: [
+          "/path/to/extensionA.xpi", // path to .xpi file
+          "/path/to/extensionB", // or path to unpacked Firefox extension
+        ],
+        "xpinstall.signatures.required": false,
+        "browser.startup.homepage": "https://webdriver.io",
+        legacy: true, // only use for firefox <= 55
+      },
+    ],
+    [
+      "selenium-standalone",
+      { drivers: { firefox: "0.29.1", chrome: true, chromiumedge: "latest" } },
+    ],
+  ],
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
   // see also: https://webdriver.io/docs/frameworks
@@ -132,7 +167,7 @@ exports.config = {
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: ["spec"],
-  port: 4444,
+  //port: 4444,
 
   //
   // Options to be passed to Mocha.
