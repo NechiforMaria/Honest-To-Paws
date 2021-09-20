@@ -1,0 +1,279 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'waitForDisplayed' of undefined",
+      "children" : [ {
+        "name" : "Click on the all articles",
+        "uid" : "7ff6c5cdbf017efb",
+        "parentUid" : "7502b68edd8363958c71cf09a88cf4c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148543209,
+          "stop" : 1632148543331,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      } ],
+      "uid" : "7502b68edd8363958c71cf09a88cf4c5"
+    }, {
+      "name" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Articles for cute category",
+        "uid" : "ae241ccff3b2535",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148631817,
+          "stop" : 1632148653835,
+          "duration" : 22018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Articles for fuuny category",
+        "uid" : "dc640352e7f7e9e7",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148653836,
+          "stop" : 1632148676839,
+          "duration" : 23003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Articles for omg category",
+        "uid" : "1411261a5b042c89",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148695720,
+          "stop" : 1632148724520,
+          "duration" : 28800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Articles for cute category",
+        "uid" : "af4d80b3d70cd9c6",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148722689,
+          "stop" : 1632148745286,
+          "duration" : 22597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      }, {
+        "name" : "Articles for fuuny category",
+        "uid" : "161e839b24dacd89",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148745291,
+          "stop" : 1632148766853,
+          "duration" : 21562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      }, {
+        "name" : "Articles for omg category",
+        "uid" : "a65d685b8ac9174",
+        "parentUid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148775243,
+          "stop" : 1632148797205,
+          "duration" : 21962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "d561e9e91d4d89b4b8f8cc6b705e7d2a"
+    }, {
+      "name" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Hamburger Menu first part",
+        "uid" : "9e567e3cb0d1c974",
+        "parentUid" : "8b0cf5135137d151dae4769a320adf33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148745440,
+          "stop" : 1632148757601,
+          "duration" : 12161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Hamburger menu last part",
+        "uid" : "f34d3bb3ebe14e63",
+        "parentUid" : "8b0cf5135137d151dae4769a320adf33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148757601,
+          "stop" : 1632148767631,
+          "duration" : 10030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Hamburger Menu first part",
+        "uid" : "466f1474c73af99e",
+        "parentUid" : "8b0cf5135137d151dae4769a320adf33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148818522,
+          "stop" : 1632148830346,
+          "duration" : 11824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      }, {
+        "name" : "Hamburger menu last part",
+        "uid" : "50a6a9823100f585",
+        "parentUid" : "8b0cf5135137d151dae4769a320adf33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148830347,
+          "stop" : 1632148841104,
+          "duration" : 10757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "8b0cf5135137d151dae4769a320adf33"
+    }, {
+      "name" : "Cannot read property 'getText' of undefined",
+      "children" : [ {
+        "name" : "Editor`s Picks",
+        "uid" : "b1623a4e7b875ae1",
+        "parentUid" : "e3b59cf5b54ff48e58a6b2873d9f5c86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148805328,
+          "stop" : 1632148805381,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      } ],
+      "uid" : "e3b59cf5b54ff48e58a6b2873d9f5c86"
+    }, {
+      "name" : "element (\".formstatus error\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Subscribe with invalid email on the articles page ",
+        "uid" : "f3273cc11144fd3b",
+        "parentUid" : "ecf5861ee96aab64cdcdc48e08abd23e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148830310,
+          "stop" : 1632148842786,
+          "duration" : 12476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Subscribe with invalid email on the articles page ",
+        "uid" : "4a67d2d0d9d0a180",
+        "parentUid" : "ecf5861ee96aab64cdcdc48e08abd23e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632148912903,
+          "stop" : 1632148925109,
+          "duration" : 12206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "ecf5861ee96aab64cdcdc48e08abd23e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $$(`.c-latest__posts .c-latest__title`) to have text containing\n                \n                Expected: \"EFDAF\"\n                Received: undefined",
+      "children" : [ {
+        "name" : "Articles for latest category",
+        "uid" : "a62d8c51ba606c47",
+        "parentUid" : "9e7baa68a3ecc5d9721a856471ba4c02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632148777673,
+          "stop" : 1632148805327,
+          "duration" : 27654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-92.0" ]
+      }, {
+        "name" : "Articles for latest category",
+        "uid" : "ef2c7776721600fb",
+        "parentUid" : "9e7baa68a3ecc5d9721a856471ba4c02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632148851311,
+          "stop" : 1632148878375,
+          "duration" : 27064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "9e7baa68a3ecc5d9721a856471ba4c02"
+    }, {
+      "name" : "Expect $(`.c-post__title`) to have text\n                \n                Expected: \"Privacy Policy\"\n                Received: \"About Us\"",
+      "children" : [ {
+        "name" : "Submenu",
+        "uid" : "9ca89ce940333c77",
+        "parentUid" : "13dd3cc0526dba82bd1fa5af644d7897",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632148806743,
+          "stop" : 1632148818521,
+          "duration" : 11778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "13dd3cc0526dba82bd1fa5af644d7897"
+    }, {
+      "name" : "Expect $(`.qa-placement--content`) to have text containing\n                \n                Expected: \"test tesztguh-updateasdasd\"\n                Received: undefined",
+      "children" : [ {
+        "name" : "Editor`s Picks",
+        "uid" : "d012d1c31a392f56",
+        "parentUid" : "d4b0171126b56df987fc970b01eb5798",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632148878379,
+          "stop" : 1632148890402,
+          "duration" : 12023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "d4b0171126b56df987fc970b01eb5798"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

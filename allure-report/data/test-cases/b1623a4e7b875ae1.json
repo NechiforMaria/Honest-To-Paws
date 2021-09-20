@@ -1,0 +1,303 @@
+{
+  "uid" : "b1623a4e7b875ae1",
+  "name" : "Editor`s Picks",
+  "fullName" : "Latest category and editor' picks.Editor`s Picks",
+  "historyId" : "15c526b7b506b94723f262ed994764fc",
+  "time" : {
+    "start" : 1632148805328,
+    "stop" : 1632148805381,
+    "duration" : 53
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'getText' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'getText' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1632148805329,
+        "stop" : 1632148805381,
+        "duration" : 52
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1632148805332,
+          "stop" : 1632148805381,
+          "duration" : 49
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1632148805334,
+            "stop" : 1632148805381,
+            "duration" : 47
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1632148805335,
+              "stop" : 1632148805381,
+              "duration" : 46
+            },
+            "status" : "broken",
+            "statusMessage" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/element",
+              "time" : {
+                "start" : 1632148805337,
+                "stop" : 1632148805381,
+                "duration" : 44
+              },
+              "status" : "broken",
+              "statusMessage" : "TypeError: Cannot read property 'getText' of undefined\n                    at Context.<anonymous> (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\tests\\/LatestAndEditor.js:56:35)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.executeAsync (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Maria\\Automation\\Honest-To-Paws\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/url",
+                "time" : {
+                  "start" : 1632148805339,
+                  "stop" : 1632148805359,
+                  "duration" : 20
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "POST /session/:sessionId/elements",
+                  "time" : {
+                    "start" : 1632148805342,
+                    "stop" : 1632148805354,
+                    "duration" : 12
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "1b905f29a5234474",
+                    "name" : "Request",
+                    "source" : "1b905f29a5234474.json",
+                    "type" : "application/json",
+                    "size" : 66
+                  }, {
+                    "uid" : "4ab7a55cc85e0df0",
+                    "name" : "Response",
+                    "source" : "4ab7a55cc85e0df0.json",
+                    "type" : "application/json",
+                    "size" : 342
+                  } ],
+                  "parameters" : [ ],
+                  "shouldDisplayMessage" : false,
+                  "attachmentsCount" : 2,
+                  "stepsCount" : 0,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ {
+                  "uid" : "52269b94c42583f7",
+                  "name" : "Request",
+                  "source" : "52269b94c42583f7.json",
+                  "type" : "application/json",
+                  "size" : 47
+                }, {
+                  "uid" : "473efd3ad3963bfa",
+                  "name" : "Response",
+                  "source" : "473efd3ad3963bfa.json",
+                  "type" : "application/json",
+                  "size" : 342
+                } ],
+                "parameters" : [ ],
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 4,
+                "stepsCount" : 1,
+                "hasContent" : true
+              }, {
+                "name" : "POST /session/:sessionId/elements",
+                "time" : {
+                  "start" : 1632148805363,
+                  "stop" : 1632148805368,
+                  "duration" : 5
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "b17c060e35188faa",
+                  "name" : "Request",
+                  "source" : "b17c060e35188faa.json",
+                  "type" : "application/json",
+                  "size" : 68
+                }, {
+                  "uid" : "5af4727cd91cf852",
+                  "name" : "Response",
+                  "source" : "5af4727cd91cf852.json",
+                  "type" : "application/json",
+                  "size" : 334
+                } ],
+                "parameters" : [ ],
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 2,
+                "stepsCount" : 0,
+                "hasContent" : true
+              }, {
+                "name" : "POST /session/:sessionId/element",
+                "time" : {
+                  "start" : 1632148805373,
+                  "stop" : 1632148805377,
+                  "duration" : 4
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "2771e0eaaac33431",
+                  "name" : "Request",
+                  "source" : "2771e0eaaac33431.json",
+                  "type" : "application/json",
+                  "size" : 60
+                }, {
+                  "uid" : "f4e86a4d18cd715d",
+                  "name" : "Response",
+                  "source" : "f4e86a4d18cd715d.json",
+                  "type" : "application/json",
+                  "size" : 2
+                } ],
+                "parameters" : [ ],
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 2,
+                "stepsCount" : 0,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "49321f9614deb605",
+                "name" : "Request",
+                "source" : "49321f9614deb605.json",
+                "type" : "application/json",
+                "size" : 60
+              } ],
+              "parameters" : [ ],
+              "shouldDisplayMessage" : true,
+              "attachmentsCount" : 9,
+              "stepsCount" : 4,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "3d8e9d4cc902015a",
+              "name" : "Request",
+              "source" : "3d8e9d4cc902015a.json",
+              "type" : "application/json",
+              "size" : 60
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 10,
+            "stepsCount" : 5,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "ebb9f33627cc5975",
+            "name" : "Request",
+            "source" : "ebb9f33627cc5975.json",
+            "type" : "application/json",
+            "size" : 68
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 11,
+          "stepsCount" : 6,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d5120ed84cd87d50",
+          "name" : "Request",
+          "source" : "d5120ed84cd87d50.json",
+          "type" : "application/json",
+          "size" : 68
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 12,
+        "stepsCount" : 7,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "17698d8e49aaeba",
+        "name" : "Request",
+        "source" : "17698d8e49aaeba.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 13,
+      "stepsCount" : 8,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 13,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-4"
+  }, {
+    "name" : "suite",
+    "value" : "Latest category and editor' picks"
+  }, {
+    "name" : "testClass",
+    "value" : "Latest category and editor' picks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Editor`s Picks"
+  }, {
+    "name" : "package",
+    "value" : "Latest category and editor' picks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f94cffdb89e02af",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1632147138965,
+        "stop" : 1632147139002,
+        "duration" : 37
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b1623a4e7b875ae1.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "4b51722cbb876efc1a0dd55d48eb8d8c",
+    "name" : "Latest category and editor' picks",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b98fe6c318e17fb112606f80a487ab1e",
+    "name" : "Home page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "7159e79c9bf267cac923fa5a7ee59099",
+    "name" : "Category and articles for category",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "428b28fc12ce52dcfbb4f4592020c883",
+    "name" : "Subscribe",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "e2c1ed4d112a8ef3babbfe0ddb2e3cc7",
+    "name" : "All the articles",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "486494d860ea0500aef19e8ed3ce2769",
+    "name" : "Articles pages",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "be3151f8b882d0c00c9fb35012f49657",
+    "name" : "Search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

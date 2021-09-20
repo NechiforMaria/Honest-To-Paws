@@ -1,0 +1,4 @@
+{
+  "script": "return (function () {\n      window.history.go(-2);\n    }).apply(null, arguments)",
+  "args": []
+}
