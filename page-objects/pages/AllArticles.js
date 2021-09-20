@@ -1,57 +1,60 @@
-class AllArticles{
-    get first()
-    {
-        return $$('.c-link__cover')[0]
-    }
+import Homepage from "./Homepage";
 
-    get second()
-    {
-        return $$('.c-link__cover')[1]
-    }
+class AllArticles {
+  // async allArticlesLinks() {
+  //   const titleArticles = await $$(".c-link__cover");
+  //   await titleArticles.forEach(async (titleArticles) => {
+  //     {
+  //       await titleArticles.click();
+  //       console.log(titleArticles);
+  //       Homepage.backPage();
+  //     }
+  //   });
+  // }
 
-    get third()
-    {
-        return $$('.c-link__cover')[2]
-    }
+  //clickOnAllArticles() {}
+  get firstArticle() {
+    return $$(".c-link__cover")[0];
+  }
 
-    get fourth()
-    {
-        return $$('.c-link__cover')[3]
-    }
+  get secondArticle() {
+    return $$(".c-link__cover")[1];
+  }
 
-    get fifth()
-    {
-        return $$('.c-link__cover')[4]
-    }
+  get thirdArticle() {
+    return $$(".c-link__cover")[2];
+  }
 
-    get sixth()
-    {
-        return $$('.c-link__cover')[5]
-    }
+  get fourthArticle() {
+    return $$(".c-link__cover")[3];
+  }
 
-    get seventh()
-    {
-        return $$('.c-link__cover')[6]
-    }
+  get fifthArticle() {
+    return $$(".c-link__cover")[4];
+  }
 
-    get eighth()
-    {
-        return $$('.c-link__cover')[7]
-    }
+  get sixthArticle() {
+    return $$(".c-link__cover")[5];
+  }
 
-    get ninth()
-    {
-        return $$('.c-link__cover')[8]
-    }
+  get seventhArticle() {
+    return $$(".c-link__cover")[6];
+  }
 
-    get tenth()
-    {
-        return $$('.c-link__cover')[9]
-    }
+  get eighthArticle() {
+    return $$(".c-link__cover")[7];
+  }
 
-    get galleryCategory(){
-        return $('.qa-gallery-category')
-    }
+  get ninthArticle() {
+    return $$(".c-link__cover")[8];
+  }
 
+  get tenthArticle() {
+    return $$(".c-link__cover")[9];
+  }
+
+  get galleryCategory() {
+    return $(".qa-gallery-category");
+  }
 }
-export default new AllArticles()
+export default new AllArticles();
