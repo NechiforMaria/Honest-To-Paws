@@ -11,6 +11,7 @@ describe("Articles pages", () => {
     Menu.clickOnApproveButtonFirefox();
   });
   it("Subscribe", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).click();
     await (
@@ -21,6 +22,7 @@ describe("Articles pages", () => {
   });
 
   it("Trending On Honest To Paws", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await browser.pause(2000);
     await (await CutePage.trendingArticle1).click();
@@ -33,6 +35,7 @@ describe("Articles pages", () => {
   });
 
   it("More from Honest To Paws", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await browser.pause(2000);
 
@@ -62,6 +65,7 @@ describe("Articles pages", () => {
   });
 
   it("Social media", async () => {
+    await (await Menu.cuteButton).waitForDisplayed();
     await (await Menu.cuteButton).click();
     await browser.pause(2000);
 

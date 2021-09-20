@@ -9,6 +9,7 @@ describe("Search", () => {
     Menu.clickOnApproveButtonFirefox();
   });
   it("Search with valid word", async () => {
+    await (await Menu.searchButton).waitForDisplayed();
     await (await Menu.searchButton).click();
     const text = "Finish The Most Iconic Book Titles In History";
     await (await Menu.searchButton).setValue(text);
@@ -18,7 +19,7 @@ describe("Search", () => {
   });
 
   it("Search with invalid word", async () => {
-    //await Menu.approveButton.click()
+    await (await Menu.searchButton).waitForDisplayed();
     await (await Menu.searchButton).click();
     const text = "qwq";
     await (await Menu.searchButton).setValue(text);

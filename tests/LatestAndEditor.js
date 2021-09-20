@@ -25,6 +25,7 @@ describe(`Latest category and editor' picks`, () => {
     const text2 = await secondTitle.getText();
     await (await HomePage.latestArticle2).waitForDisplayed();
     await (await HomePage.latestArticle2).click();
+    await (await HomePage.titleArticle).waitForDisplayed();
     const title2 = HomePage.titleArticle;
     await expect(await title2).toHaveTextContaining(text2);
 
@@ -34,6 +35,7 @@ describe(`Latest category and editor' picks`, () => {
     const text3 = await thirdTitle.getText();
     await (await HomePage.latestArticle3).waitForDisplayed();
     await (await HomePage.latestArticle3).click();
+    await (await HomePage.titleArticle).waitForDisplayed();
     const title3 = await HomePage.titleArticle;
     await expect(await title).toHaveTextContaining(text3);
 
@@ -43,6 +45,7 @@ describe(`Latest category and editor' picks`, () => {
     const text4 = await fourthTitle.getText();
     await (await HomePage.latestArticle4).waitForDisplayed();
     await (await HomePage.latestArticle4).click();
+    await (await HomePage.titleArticle).waitForDisplayed();
     const title4 = await HomePage.titleArticle;
     await expect(await title4).toHaveTextContaining(text4);
   });
@@ -52,7 +55,8 @@ describe(`Latest category and editor' picks`, () => {
     const firstTitle = await alltitle[0];
     const text = await firstTitle.getText();
     await browser.pause(1000);
-    await HomePage.widgetEditorsFirstPost.click();
+    await (await HomePage.widgetEditorsFirstPost).waitForDisplayed();
+    await (await HomePage.widgetEditorsFirstPost).click();
     const title = await HomePage.titleArticle;
     await expect(await title).toHaveTextContaining(text);
     await HomePage.backPage();
