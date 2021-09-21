@@ -5,20 +5,20 @@
     "name" : "0-3",
     "children" : [ {
       "name" : "Hamburger Menu first part",
-      "uid" : "466f1474c73af99e",
+      "uid" : "ade29366439fd67d",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "broken",
       "time" : {
-        "start" : 1632148818522,
-        "stop" : 1632148830346,
-        "duration" : 11824
+        "start" : 1632147082894,
+        "stop" : 1632147094766,
+        "duration" : 11872
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
       "name" : "Footer",
-      "uid" : "ad1923c5fc4e931e",
+      "uid" : "c86c56c28a4c1638",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
@@ -30,8 +30,47 @@
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
+      "name" : "Footer",
+      "uid" : "dd976e3610c7b31b",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147105410,
+        "stop" : 1632147111548,
+        "duration" : 6138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Submenu",
+      "uid" : "a1329313216d2771",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632148806743,
+        "stop" : 1632148818521,
+        "duration" : 11778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Submenu",
+      "uid" : "ab05b19f10d6fbc1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632147070078,
+        "stop" : 1632147082892,
+        "duration" : 12814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
       "name" : "Menu",
-      "uid" : "7547b6d325d91100",
+      "uid" : "3b36bcecdd64334c",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
@@ -44,7 +83,7 @@
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
       "name" : "Hamburger menu last part",
-      "uid" : "50a6a9823100f585",
+      "uid" : "2d260504c1b142fc",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "broken",
       "time" : {
@@ -57,7 +96,7 @@
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
       "name" : "Menu",
-      "uid" : "b3d6ae0b974f7158",
+      "uid" : "7f67ffb39464ba5",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
@@ -69,34 +108,21 @@
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
-      "name" : "Submenu",
-      "uid" : "7d0fef6ec2d05325",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632147070078,
-        "stop" : 1632147082892,
-        "duration" : 12814
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
       "name" : "Hamburger Menu first part",
-      "uid" : "df49444af268fd73",
+      "uid" : "a7c4b75a845055eb",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "broken",
       "time" : {
-        "start" : 1632147082894,
-        "stop" : 1632147094766,
-        "duration" : 11872
+        "start" : 1632148818522,
+        "stop" : 1632148830346,
+        "duration" : 11824
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
       "name" : "Hamburger menu last part",
-      "uid" : "2c5d91a06d35792",
+      "uid" : "e11423a036da3dbb",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "broken",
       "time" : {
@@ -107,894 +133,13 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Submenu",
-      "uid" : "9ca89ce940333c77",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632148806743,
-        "stop" : 1632148818521,
-        "duration" : 11778
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Footer",
-      "uid" : "719b28b1eb40cac0",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147105410,
-        "stop" : 1632147111548,
-        "duration" : 6138
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
     } ],
     "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "Articles for omg category",
-      "uid" : "dd9f1ff997dc089e",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147040670,
-        "stop" : 1632147061021,
-        "duration" : 20351
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Category",
-      "uid" : "2b04b975fc2a1af5",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146909660,
-        "stop" : 1632146988197,
-        "duration" : 78537
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Category",
-      "uid" : "484647db64cc6d5b",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148706160,
-        "stop" : 1632148722688,
-        "duration" : 16528
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for good category",
-      "uid" : "878b2685d8a0ea83",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147030050,
-        "stop" : 1632147040670,
-        "duration" : 10620
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for fuuny category",
-      "uid" : "161e839b24dacd89",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148745291,
-        "stop" : 1632148766853,
-        "duration" : 21562
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for fuuny category",
-      "uid" : "237b4fec636097f4",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147010155,
-        "stop" : 1632147030048,
-        "duration" : 19893
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for omg category",
-      "uid" : "a65d685b8ac9174",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148775243,
-        "stop" : 1632148797205,
-        "duration" : 21962
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for good category",
-      "uid" : "dcbe33583cb47308",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148766858,
-        "stop" : 1632148775243,
-        "duration" : 8385
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for cute category",
-      "uid" : "b9842f49c1bcd37e",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632146988199,
-        "stop" : 1632147010153,
-        "duration" : 21954
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for cute category",
-      "uid" : "af4d80b3d70cd9c6",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148722689,
-        "stop" : 1632148745286,
-        "duration" : 22597
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
-    "name" : "1-2",
-    "children" : [ {
-      "name" : "Articles for omg category",
-      "uid" : "1411261a5b042c89",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148695720,
-        "stop" : 1632148724520,
-        "duration" : 28800
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for cute category",
-      "uid" : "ae241ccff3b2535",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148631817,
-        "stop" : 1632148653835,
-        "duration" : 22018
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for cute category",
-      "uid" : "1e0bd447ab82a19",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632146916822,
-        "stop" : 1632146944168,
-        "duration" : 27346
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for good category",
-      "uid" : "27988d6f23557df9",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146972294,
-        "stop" : 1632146992159,
-        "duration" : 19865
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for fuuny category",
-      "uid" : "4f0635c139e2c002",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632146944173,
-        "stop" : 1632146972291,
-        "duration" : 28118
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for omg category",
-      "uid" : "70c87674d4351e8d",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632146992163,
-        "stop" : 1632147019192,
-        "duration" : 27029
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for good category",
-      "uid" : "cb502c33ceb86f36",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148676848,
-        "stop" : 1632148695720,
-        "duration" : 18872
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Category",
-      "uid" : "b2742925f9f42776",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146881299,
-        "stop" : 1632146916794,
-        "duration" : 35495
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Articles for fuuny category",
-      "uid" : "dc640352e7f7e9e7",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148653836,
-        "stop" : 1632148676839,
-        "duration" : 23003
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Category",
-      "uid" : "1b462c647f9244f9",
-      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148612263,
-        "stop" : 1632148631811,
-        "duration" : 19548
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    } ],
-    "uid" : "aaf9cc9bc103c872529dc4d1947b03c1"
-  }, {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "Click on the all articles",
-      "uid" : "1a34bc638a735d95",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148539740,
-        "stop" : 1632148609837,
-        "duration" : 70097
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Click on the all articles",
-      "uid" : "125cc5b0d38c61c0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146778501,
-        "stop" : 1632146826894,
-        "duration" : 48393
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "Trending On Honest To Paws",
-      "uid" : "31fd2ab838c87c1a",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148622528,
-        "stop" : 1632148677336,
-        "duration" : 54808
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe",
-      "uid" : "47b5335bc8e4db",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146830404,
-        "stop" : 1632146844674,
-        "duration" : 14270
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Social media",
-      "uid" : "2dd2a0b814df4616",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146896871,
-        "stop" : 1632146906416,
-        "duration" : 9545
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "More from Honest To Paws",
-      "uid" : "f5b6abcd9b0e4b2",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148677336,
-        "stop" : 1632148693354,
-        "duration" : 16018
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Social media",
-      "uid" : "e6eeac281de31efb",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148693354,
-        "stop" : 1632148701597,
-        "duration" : 8243
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Trending On Honest To Paws",
-      "uid" : "8c66afd37f2ec56e",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146844675,
-        "stop" : 1632146879771,
-        "duration" : 35096
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "More from Honest To Paws",
-      "uid" : "49575aab39b8d2bc",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146879772,
-        "stop" : 1632146896871,
-        "duration" : 17099
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe",
-      "uid" : "6853b8f2b3c3193e",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148613118,
-        "stop" : 1632148622527,
-        "duration" : 9409
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
-    "name" : "0-4",
-    "children" : [ {
-      "name" : "Editor`s Picks",
-      "uid" : "90ba9cfcdf8c0edd",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632147139358,
-        "stop" : 1632147152188,
-        "duration" : 12830
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for latest category",
-      "uid" : "ef2c7776721600fb",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632148851311,
-        "stop" : 1632148878375,
-        "duration" : 27064
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Articles for latest category",
-      "uid" : "fffc43f7a4594500",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632147114238,
-        "stop" : 1632147139353,
-        "duration" : 25115
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Editor`s Picks",
-      "uid" : "d012d1c31a392f56",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "failed",
-      "time" : {
-        "start" : 1632148878379,
-        "stop" : 1632148890402,
-        "duration" : 12023
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
-  }, {
-    "name" : "1-3",
-    "children" : [ {
-      "name" : "Footer",
-      "uid" : "73cda171f5474ba5",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147068180,
-        "stop" : 1632147074471,
-        "duration" : 6291
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Hamburger menu last part",
-      "uid" : "3d82442cb13fd252",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147057503,
-        "stop" : 1632147068180,
-        "duration" : 10677
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Hamburger menu last part",
-      "uid" : "f34d3bb3ebe14e63",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148757601,
-        "stop" : 1632148767631,
-        "duration" : 10030
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Submenu",
-      "uid" : "4b54555c245b0738",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147039256,
-        "stop" : 1632147045774,
-        "duration" : 6518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Menu",
-      "uid" : "dc54b946c1c19ae3",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148732669,
-        "stop" : 1632148740129,
-        "duration" : 7460
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Hamburger Menu first part",
-      "uid" : "8a2c9b85cd254d59",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147045774,
-        "stop" : 1632147057502,
-        "duration" : 11728
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Footer",
-      "uid" : "c4a03001c830e5ea",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148767631,
-        "stop" : 1632148771024,
-        "duration" : 3393
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Hamburger Menu first part",
-      "uid" : "9e567e3cb0d1c974",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148745440,
-        "stop" : 1632148757601,
-        "duration" : 12161
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Menu",
-      "uid" : "dfdf9cd2fe50937e",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147025588,
-        "stop" : 1632147039256,
-        "duration" : 13668
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Submenu",
-      "uid" : "f2c7698eaa62eeba",
-      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148740130,
-        "stop" : 1632148745440,
-        "duration" : 5310
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    } ],
-    "uid" : "19820e2d6fe04f5bf84547313e2a1e84"
-  }, {
-    "name" : "1-1",
-    "children" : [ {
-      "name" : "More from Honest To Paws",
-      "uid" : "15444e7e3183997f",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148582752,
-        "stop" : 1632148598011,
-        "duration" : 15259
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Trending On Honest To Paws",
-      "uid" : "69eeb359df1c83d8",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148570781,
-        "stop" : 1632148582752,
-        "duration" : 11971
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Social media",
-      "uid" : "b7fe696c5f34c3f0",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146867132,
-        "stop" : 1632146875124,
-        "duration" : 7992
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "More from Honest To Paws",
-      "uid" : "864bf1574de9d7a6",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146851165,
-        "stop" : 1632146867132,
-        "duration" : 15967
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Trending On Honest To Paws",
-      "uid" : "e5c9329b0f8d2f1f",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146836026,
-        "stop" : 1632146851164,
-        "duration" : 15138
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Social media",
-      "uid" : "24605fc5121caa30",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148598014,
-        "stop" : 1632148606106,
-        "duration" : 8092
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Subscribe",
-      "uid" : "66d2718d6e9c1d0c",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148558960,
-        "stop" : 1632148570779,
-        "duration" : 11819
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Subscribe",
-      "uid" : "a0619fd1c95fe697",
-      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632146827999,
-        "stop" : 1632146836026,
-        "duration" : 8027
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    } ],
-    "uid" : "7f515bb52d6d225c0a299e7d9c0e2786"
-  }, {
-    "name" : "0-5",
-    "children" : [ {
-      "name" : "Search with invalid word",
-      "uid" : "4bd60756f251a0f4",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147161707,
-        "stop" : 1632147163331,
-        "duration" : 1624
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Search with valid word",
-      "uid" : "4eca11b13ada4397",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147154939,
-        "stop" : 1632147161706,
-        "duration" : 6767
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Search with invalid word",
-      "uid" : "aee673c8a551a9a6",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148902499,
-        "stop" : 1632148903989,
-        "duration" : 1490
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Search with valid word",
-      "uid" : "8f00f794f5d8e53",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148893027,
-        "stop" : 1632148902499,
-        "duration" : 9472
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "6ea253441b78cd38797e932a74777a9c"
-  }, {
-    "name" : "0-6",
-    "children" : [ {
-      "name" : "Subscribe with invalid email on the articles page ",
-      "uid" : "4a67224f2938d1c4",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147173140,
-        "stop" : 1632147185467,
-        "duration" : 12327
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe on the articles page",
-      "uid" : "10f09d1b564dca2b",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147166460,
-        "stop" : 1632147173139,
-        "duration" : 6679
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe after press email button",
-      "uid" : "3b7067a41a68f272",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147185467,
-        "stop" : 1632147189543,
-        "duration" : 4076
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe with invalid email on the articles page ",
-      "uid" : "4a67d2d0d9d0a180",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148912903,
-        "stop" : 1632148925109,
-        "duration" : 12206
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe after press email button",
-      "uid" : "85257ef41690e64a",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148925118,
-        "stop" : 1632148929234,
-        "duration" : 4116
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    }, {
-      "name" : "Subscribe on the articles page",
-      "uid" : "7d96bf903c05f185",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148906564,
-        "stop" : 1632148912902,
-        "duration" : 6338
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-93.0.4577.82" ]
-    } ],
-    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
   }, {
     "name" : "1-4",
     "children" : [ {
       "name" : "Editor`s Picks",
-      "uid" : "b1623a4e7b875ae1",
-      "parentUid" : "6398ef4b2805317600e1163fefb7476a",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148805328,
-        "stop" : 1632148805381,
-        "duration" : 53
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Editor`s Picks",
-      "uid" : "7f94cffdb89e02af",
+      "uid" : "c3cf61ce61db5995",
       "parentUid" : "6398ef4b2805317600e1163fefb7476a",
       "status" : "broken",
       "time" : {
@@ -1007,7 +152,7 @@
       "parameters" : [ "firefox-92.0" ]
     }, {
       "name" : "Articles for latest category",
-      "uid" : "a62d8c51ba606c47",
+      "uid" : "ad574d094245c256",
       "parentUid" : "6398ef4b2805317600e1163fefb7476a",
       "status" : "failed",
       "time" : {
@@ -1019,8 +164,21 @@
       "newFailed" : false,
       "parameters" : [ "firefox-92.0" ]
     }, {
+      "name" : "Editor`s Picks",
+      "uid" : "66b004305a62f7c4",
+      "parentUid" : "6398ef4b2805317600e1163fefb7476a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148805328,
+        "stop" : 1632148805381,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
       "name" : "Articles for latest category",
-      "uid" : "82bea0c6a217d354",
+      "uid" : "91cddf298454327d",
       "parentUid" : "6398ef4b2805317600e1163fefb7476a",
       "status" : "failed",
       "time" : {
@@ -1034,148 +192,282 @@
     } ],
     "uid" : "6398ef4b2805317600e1163fefb7476a"
   }, {
-    "name" : "1-6",
+    "name" : "0-5",
     "children" : [ {
-      "name" : "Subscribe on the articles page",
-      "uid" : "811556afc2f57024",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "name" : "Search with invalid word",
+      "uid" : "3d23d0bc36d2fcdb",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
       "status" : "passed",
       "time" : {
-        "start" : 1632147157096,
-        "stop" : 1632147164882,
-        "duration" : 7786
+        "start" : 1632147161707,
+        "stop" : 1632147163331,
+        "duration" : 1624
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
+      "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
-      "name" : "Subscribe with invalid email on the articles page ",
-      "uid" : "f3273cc11144fd3b",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632148830310,
-        "stop" : 1632148842786,
-        "duration" : 12476
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Subscribe with invalid email on the articles page ",
-      "uid" : "11234685d4c89633",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
-      "status" : "broken",
-      "time" : {
-        "start" : 1632147164883,
-        "stop" : 1632147177599,
-        "duration" : 12716
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Subscribe after press email button",
-      "uid" : "b951206c0f77bb3e",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "name" : "Search with valid word",
+      "uid" : "7b377c21f2928895",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
       "status" : "passed",
       "time" : {
-        "start" : 1632148842786,
-        "stop" : 1632148846624,
-        "duration" : 3838
+        "start" : 1632147154939,
+        "stop" : 1632147161706,
+        "duration" : 6767
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
+      "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
-      "name" : "Subscribe on the articles page",
-      "uid" : "ca0d99db329ded80",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "name" : "Search with invalid word",
+      "uid" : "2fa909ff3bc93c48",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
       "status" : "passed",
       "time" : {
-        "start" : 1632148824370,
-        "stop" : 1632148830307,
-        "duration" : 5937
+        "start" : 1632148902499,
+        "stop" : 1632148903989,
+        "duration" : 1490
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
+      "parameters" : [ "chrome-93.0.4577.82" ]
     }, {
-      "name" : "Subscribe after press email button",
-      "uid" : "93a185f1257b1b05",
-      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
-      "status" : "broken",
+      "name" : "Search with valid word",
+      "uid" : "928ea5d8c94479f",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
       "time" : {
-        "start" : 1632147177599,
-        "stop" : 1632147177624,
-        "duration" : 25
+        "start" : 1632148893027,
+        "stop" : 1632148902499,
+        "duration" : 9472
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
+      "parameters" : [ "chrome-93.0.4577.82" ]
     } ],
-    "uid" : "4829cd0229bbbd68c895f67481ee787a"
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
   }, {
-    "name" : "1-0",
+    "name" : "1-2",
     "children" : [ {
-      "name" : "Click on the all articles",
-      "uid" : "7ff6c5cdbf017efb",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "name" : "Articles for omg category",
+      "uid" : "96995ba69d92671b",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
       "status" : "broken",
       "time" : {
-        "start" : 1632148543209,
-        "stop" : 1632148543331,
-        "duration" : 122
+        "start" : 1632148695720,
+        "stop" : 1632148724520,
+        "duration" : 28800
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "firefox-92.0" ]
     }, {
-      "name" : "Click on the all articles",
-      "uid" : "f4f8214ab2ad7db7",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "name" : "Articles for fuuny category",
+      "uid" : "662c97445316804f",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148653836,
+        "stop" : 1632148676839,
+        "duration" : 23003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for cute category",
+      "uid" : "d77f182d2a5ee57b",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148631817,
+        "stop" : 1632148653835,
+        "duration" : 22018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Category",
+      "uid" : "75d2abf77ffc5fc3",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
       "status" : "passed",
       "time" : {
-        "start" : 1632146781582,
-        "stop" : 1632146821942,
-        "duration" : 40360
+        "start" : 1632148612263,
+        "stop" : 1632148631811,
+        "duration" : 19548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for good category",
+      "uid" : "86a3aa1363018c89",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148676848,
+        "stop" : 1632148695720,
+        "duration" : 18872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for fuuny category",
+      "uid" : "756b31b1535cbdeb",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632146944173,
+        "stop" : 1632146972291,
+        "duration" : 28118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for omg category",
+      "uid" : "9a3730e52dce263a",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632146992163,
+        "stop" : 1632147019192,
+        "duration" : 27029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Category",
+      "uid" : "1fbe56bc1af5d212",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146881299,
+        "stop" : 1632146916794,
+        "duration" : 35495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for good category",
+      "uid" : "41ed892d5f05d3a",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146972294,
+        "stop" : 1632146992159,
+        "duration" : 19865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Articles for cute category",
+      "uid" : "507664f88b4a136e",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632146916822,
+        "stop" : 1632146944168,
+        "duration" : 27346
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "firefox-92.0" ]
     } ],
-    "uid" : "5d884c24784638b93056bad95e3212e7"
+    "uid" : "aaf9cc9bc103c872529dc4d1947b03c1"
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Subscribe on the articles page",
+      "uid" : "f6d5ddf6d5e46a5",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148906564,
+        "stop" : 1632148912902,
+        "duration" : 6338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe after press email button",
+      "uid" : "b6684ac5ce220bad",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147185467,
+        "stop" : 1632147189543,
+        "duration" : 4076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe after press email button",
+      "uid" : "fcf4cc34fea63865",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148925118,
+        "stop" : 1632148929234,
+        "duration" : 4116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe with invalid email on the articles page ",
+      "uid" : "782d8fb77f907f",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147173140,
+        "stop" : 1632147185467,
+        "duration" : 12327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe with invalid email on the articles page ",
+      "uid" : "954526c7f4183133",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148912903,
+        "stop" : 1632148925109,
+        "duration" : 12206
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe on the articles page",
+      "uid" : "79f11bec92455026",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147166460,
+        "stop" : 1632147173139,
+        "duration" : 6679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
   }, {
     "name" : "1-5",
     "children" : [ {
-      "name" : "Search with valid word",
-      "uid" : "3b4cb431dcfb015d",
-      "parentUid" : "851bee7c269447449da3014d485b26a7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148811955,
-        "stop" : 1632148816710,
-        "duration" : 4755
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
       "name" : "Search with invalid word",
-      "uid" : "4e8806d07b8d8a23",
-      "parentUid" : "851bee7c269447449da3014d485b26a7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632147150077,
-        "stop" : 1632147151606,
-        "duration" : 1529
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-92.0" ]
-    }, {
-      "name" : "Search with invalid word",
-      "uid" : "df301dd60f9238b0",
+      "uid" : "36b1e8fe5646302b",
       "parentUid" : "851bee7c269447449da3014d485b26a7",
       "status" : "passed",
       "time" : {
@@ -1187,8 +479,34 @@
       "newFailed" : false,
       "parameters" : [ "firefox-92.0" ]
     }, {
+      "name" : "Search with invalid word",
+      "uid" : "6147d3bef09fc8d9",
+      "parentUid" : "851bee7c269447449da3014d485b26a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147150077,
+        "stop" : 1632147151606,
+        "duration" : 1529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
       "name" : "Search with valid word",
-      "uid" : "f469648bfeda2eb6",
+      "uid" : "c5e9399934a6daa",
+      "parentUid" : "851bee7c269447449da3014d485b26a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148811955,
+        "stop" : 1632148816710,
+        "duration" : 4755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Search with valid word",
+      "uid" : "26ece08b7628e56c",
       "parentUid" : "851bee7c269447449da3014d485b26a7",
       "status" : "passed",
       "time" : {
@@ -1201,5 +519,687 @@
       "parameters" : [ "firefox-92.0" ]
     } ],
     "uid" : "851bee7c269447449da3014d485b26a7"
+  }, {
+    "name" : "1-1",
+    "children" : [ {
+      "name" : "More from Honest To Paws",
+      "uid" : "dec59e6fd62a402d",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148582752,
+        "stop" : 1632148598011,
+        "duration" : 15259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Trending On Honest To Paws",
+      "uid" : "24cc0280aab36d9e",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146836026,
+        "stop" : 1632146851164,
+        "duration" : 15138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Social media",
+      "uid" : "2f49c9920eee0c1b",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146867132,
+        "stop" : 1632146875124,
+        "duration" : 7992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe",
+      "uid" : "cb8f3fe9e4b1803d",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148558960,
+        "stop" : 1632148570779,
+        "duration" : 11819
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "More from Honest To Paws",
+      "uid" : "12dc90dd079005b2",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146851165,
+        "stop" : 1632146867132,
+        "duration" : 15967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Trending On Honest To Paws",
+      "uid" : "c8c4738764acfd8b",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148570781,
+        "stop" : 1632148582752,
+        "duration" : 11971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe",
+      "uid" : "7912cd2f996a344b",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146827999,
+        "stop" : 1632146836026,
+        "duration" : 8027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Social media",
+      "uid" : "7f81b1d11ad09384",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148598014,
+        "stop" : 1632148606106,
+        "duration" : 8092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    } ],
+    "uid" : "7f515bb52d6d225c0a299e7d9c0e2786"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Click on the all articles",
+      "uid" : "38e77db0132502a4",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146781582,
+        "stop" : 1632146821942,
+        "duration" : 40360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Click on the all articles",
+      "uid" : "be072afdcf3db29e",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148543209,
+        "stop" : 1632148543331,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Articles for good category",
+      "uid" : "65f29233b6345ce5",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147030050,
+        "stop" : 1632147040670,
+        "duration" : 10620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Category",
+      "uid" : "981dda4a53af53b1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146909660,
+        "stop" : 1632146988197,
+        "duration" : 78537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for omg category",
+      "uid" : "2f31072b2b246044",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148775243,
+        "stop" : 1632148797205,
+        "duration" : 21962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for fuuny category",
+      "uid" : "b3c759a8fd6e4eac",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147010155,
+        "stop" : 1632147030048,
+        "duration" : 19893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for good category",
+      "uid" : "b8962125d84a0b37",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148766858,
+        "stop" : 1632148775243,
+        "duration" : 8385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for omg category",
+      "uid" : "50bce5cbc66cf145",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147040670,
+        "stop" : 1632147061021,
+        "duration" : 20351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for fuuny category",
+      "uid" : "529a0389fc8e6d00",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148745291,
+        "stop" : 1632148766853,
+        "duration" : 21562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Category",
+      "uid" : "1e0de4a01bc8d5f8",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148706160,
+        "stop" : 1632148722688,
+        "duration" : 16528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for cute category",
+      "uid" : "eeec072790614dc7",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148722689,
+        "stop" : 1632148745286,
+        "duration" : 22597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for cute category",
+      "uid" : "e0084f7d703401d0",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632146988199,
+        "stop" : 1632147010153,
+        "duration" : 21954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Editor`s Picks",
+      "uid" : "628195d8a68541d8",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632147139358,
+        "stop" : 1632147152188,
+        "duration" : 12830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for latest category",
+      "uid" : "64d51db7a3ad21d2",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632148851311,
+        "stop" : 1632148878375,
+        "duration" : 27064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Editor`s Picks",
+      "uid" : "edaadb12c6d2a892",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632148878379,
+        "stop" : 1632148890402,
+        "duration" : 12023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Articles for latest category",
+      "uid" : "66ffd036e10485d6",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632147114238,
+        "stop" : 1632147139353,
+        "duration" : 25115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "More from Honest To Paws",
+      "uid" : "b5ac668db8ec9a2f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148677336,
+        "stop" : 1632148693354,
+        "duration" : 16018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Trending On Honest To Paws",
+      "uid" : "335e3db2d55c31aa",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146844675,
+        "stop" : 1632146879771,
+        "duration" : 35096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe",
+      "uid" : "b2536fba84ab88eb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146830404,
+        "stop" : 1632146844674,
+        "duration" : 14270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "More from Honest To Paws",
+      "uid" : "ed1af1fc704388c9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146879772,
+        "stop" : 1632146896871,
+        "duration" : 17099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Social media",
+      "uid" : "6d8fd4863ba3ce1b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146896871,
+        "stop" : 1632146906416,
+        "duration" : 9545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Trending On Honest To Paws",
+      "uid" : "d007cc7640aac598",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148622528,
+        "stop" : 1632148677336,
+        "duration" : 54808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Subscribe",
+      "uid" : "b34947a5df46a6c5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148613118,
+        "stop" : 1632148622527,
+        "duration" : 9409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Social media",
+      "uid" : "65c0d1ce8230c4a2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148693354,
+        "stop" : 1632148701597,
+        "duration" : 8243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "1-3",
+    "children" : [ {
+      "name" : "Footer",
+      "uid" : "6ad8d68c04fee1b0",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147068180,
+        "stop" : 1632147074471,
+        "duration" : 6291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Hamburger menu last part",
+      "uid" : "8e29046f0a0f93a0",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147057503,
+        "stop" : 1632147068180,
+        "duration" : 10677
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Menu",
+      "uid" : "cc7b1537057b2182",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147025588,
+        "stop" : 1632147039256,
+        "duration" : 13668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Hamburger menu last part",
+      "uid" : "649e7ef70f89aded",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148757601,
+        "stop" : 1632148767631,
+        "duration" : 10030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Footer",
+      "uid" : "5ab96c966c093506",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148767631,
+        "stop" : 1632148771024,
+        "duration" : 3393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Submenu",
+      "uid" : "844c57efacb26914",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147039256,
+        "stop" : 1632147045774,
+        "duration" : 6518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Submenu",
+      "uid" : "2ccdd3a573719a69",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148740130,
+        "stop" : 1632148745440,
+        "duration" : 5310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Hamburger Menu first part",
+      "uid" : "3a6a5ad46243a676",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147045774,
+        "stop" : 1632147057502,
+        "duration" : 11728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Hamburger Menu first part",
+      "uid" : "7a52158b8fdbd5db",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148745440,
+        "stop" : 1632148757601,
+        "duration" : 12161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Menu",
+      "uid" : "926f394e85c8d501",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148732669,
+        "stop" : 1632148740129,
+        "duration" : 7460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    } ],
+    "uid" : "19820e2d6fe04f5bf84547313e2a1e84"
+  }, {
+    "name" : "1-6",
+    "children" : [ {
+      "name" : "Subscribe with invalid email on the articles page ",
+      "uid" : "2f929a8d3f429213",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147164883,
+        "stop" : 1632147177599,
+        "duration" : 12716
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe after press email button",
+      "uid" : "1495cb0003a7bf30",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632147177599,
+        "stop" : 1632147177624,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe with invalid email on the articles page ",
+      "uid" : "22247602a15b002c",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632148830310,
+        "stop" : 1632148842786,
+        "duration" : 12476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe on the articles page",
+      "uid" : "7d414df1377e7e9a",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148824370,
+        "stop" : 1632148830307,
+        "duration" : 5937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe after press email button",
+      "uid" : "972b49c607320cbb",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148842786,
+        "stop" : 1632148846624,
+        "duration" : 3838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "Subscribe on the articles page",
+      "uid" : "56bc1713be2fffc9",
+      "parentUid" : "4829cd0229bbbd68c895f67481ee787a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632147157096,
+        "stop" : 1632147164882,
+        "duration" : 7786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    } ],
+    "uid" : "4829cd0229bbbd68c895f67481ee787a"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Click on the all articles",
+      "uid" : "d369dc9b3d38e96",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632146778501,
+        "stop" : 1632146826894,
+        "duration" : 48393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Click on the all articles",
+      "uid" : "a6e7b280279e9208",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148539740,
+        "stop" : 1632148609837,
+        "duration" : 70097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ]
 }

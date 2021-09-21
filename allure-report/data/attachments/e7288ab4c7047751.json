@@ -1,4 +1,0 @@
-{
-  "script": "return (() => window.scrollTo(0, 500)).apply(null, arguments)",
-  "args": []
-}

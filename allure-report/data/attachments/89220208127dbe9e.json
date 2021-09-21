@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[aria-label=\"Approve\"]\"}\n  (Session info: chrome=93.0.4577.82)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00C22A33+2501171]\n\tOrdinal0 [0x00BBD1C1+2085313]\n\tOrdinal0 [0x00AC1FA8+1056680]\n\tOrdinal0 [0x00AEC78B+1230731]\n\tOrdinal0 [0x00B164A2+1402018]\n\tOrdinal0 [0x00B0568A+1332874]\n\tOrdinal0 [0x00B148BC+1394876]\n\tOrdinal0 [0x00B0551B+1332507]\n\tOrdinal0 [0x00AE1D74+1187188]\n\tOrdinal0 [0x00AE2BD9+1190873]\n\tGetHandleVerifier [0x00D9EFE6+1504438]\n\tGetHandleVerifier [0x00E4DDA5+2220661]\n\tGetHandleVerifier [0x00CA5589+481881]\n\tGetHandleVerifier [0x00CA4639+477961]\n\tOrdinal0 [0x00BC28BD+2107581]\n\tOrdinal0 [0x00BC6728+2123560]\n\tOrdinal0 [0x00BC6862+2123874]\n\tOrdinal0 [0x00BCFA81+2161281]\n\tBaseThreadInitThunk [0x76AAFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77737A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77737A6E+238]\n"
-}

@@ -9,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69eeb359df1c83d8",
+      "uid" : "c8c4738764acfd8b",
       "status" : "passed",
       "time" : {
         "start" : 1632148570781,
         "stop" : 1632148582752,
         "duration" : 11971
-      }
-    } ]
-  },
-  "636c319f30a9340972337a3378399100" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ef2c7776721600fb",
-      "status" : "failed",
-      "statusDetails" : "Expect $$(`.c-latest__posts .c-latest__title`) to have text containing\n                \n                Expected: \"EFDAF\"\n                Received: undefined",
-      "time" : {
-        "start" : 1632148851311,
-        "stop" : 1632148878375,
-        "duration" : 27064
       }
     } ]
   },
@@ -48,12 +28,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4a03001c830e5ea",
+      "uid" : "5ab96c966c093506",
       "status" : "passed",
       "time" : {
         "start" : 1632148767631,
         "stop" : 1632148771024,
         "duration" : 3393
+      }
+    } ]
+  },
+  "636c319f30a9340972337a3378399100" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64d51db7a3ad21d2",
+      "status" : "failed",
+      "statusDetails" : "Expect $$(`.c-latest__posts .c-latest__title`) to have text containing\n                \n                Expected: \"EFDAF\"\n                Received: undefined",
+      "time" : {
+        "start" : 1632148851311,
+        "stop" : 1632148878375,
+        "duration" : 27064
       }
     } ]
   },
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "466f1474c73af99e",
+      "uid" : "a7c4b75a845055eb",
       "status" : "broken",
       "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
       "time" : {
@@ -87,31 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3d6ae0b974f7158",
+      "uid" : "7f67ffb39464ba5",
       "status" : "passed",
       "time" : {
         "start" : 1632148800387,
         "stop" : 1632148806742,
         "duration" : 6355
-      }
-    } ]
-  },
-  "47019e65c85374a4e7a123eee19eab9c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1a34bc638a735d95",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148539740,
-        "stop" : 1632148609837,
-        "duration" : 70097
       }
     } ]
   },
@@ -125,7 +106,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6853b8f2b3c3193e",
+      "uid" : "b34947a5df46a6c5",
       "status" : "passed",
       "time" : {
         "start" : 1632148613118,
@@ -134,23 +115,22 @@
       }
     } ]
   },
-  "e647d60958069cb46416e22754b6f280" : {
+  "47019e65c85374a4e7a123eee19eab9c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "50a6a9823100f585",
-      "status" : "broken",
-      "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
+      "uid" : "a6e7b280279e9208",
+      "status" : "passed",
       "time" : {
-        "start" : 1632148830347,
-        "stop" : 1632148841104,
-        "duration" : 10757
+        "start" : 1632148539740,
+        "stop" : 1632148609837,
+        "duration" : 70097
       }
     } ]
   },
@@ -164,12 +144,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15444e7e3183997f",
+      "uid" : "dec59e6fd62a402d",
       "status" : "passed",
       "time" : {
         "start" : 1632148582752,
         "stop" : 1632148598011,
         "duration" : 15259
+      }
+    } ]
+  },
+  "e647d60958069cb46416e22754b6f280" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d260504c1b142fc",
+      "status" : "broken",
+      "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1632148830347,
+        "stop" : 1632148841104,
+        "duration" : 10757
       }
     } ]
   },
@@ -183,7 +183,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31fd2ab838c87c1a",
+      "uid" : "d007cc7640aac598",
       "status" : "passed",
       "time" : {
         "start" : 1632148622528,
@@ -202,7 +202,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2c7698eaa62eeba",
+      "uid" : "2ccdd3a573719a69",
       "status" : "passed",
       "time" : {
         "start" : 1632148740130,
@@ -221,7 +221,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ca89ce940333c77",
+      "uid" : "a1329313216d2771",
       "status" : "failed",
       "statusDetails" : "Expect $(`.c-post__title`) to have text\n                \n                Expected: \"Privacy Policy\"\n                Received: \"About Us\"",
       "time" : {
@@ -241,7 +241,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1623a4e7b875ae1",
+      "uid" : "66b004305a62f7c4",
       "status" : "broken",
       "statusDetails" : "Cannot read property 'getText' of undefined",
       "time" : {
@@ -261,7 +261,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24605fc5121caa30",
+      "uid" : "7f81b1d11ad09384",
       "status" : "passed",
       "time" : {
         "start" : 1632148598014,
@@ -280,7 +280,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d012d1c31a392f56",
+      "uid" : "edaadb12c6d2a892",
       "status" : "failed",
       "statusDetails" : "Expect $(`.qa-placement--content`) to have text containing\n                \n                Expected: \"test tesztguh-updateasdasd\"\n                Received: undefined",
       "time" : {
@@ -300,7 +300,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1411261a5b042c89",
+      "uid" : "96995ba69d92671b",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
@@ -320,51 +320,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a62d8c51ba606c47",
+      "uid" : "ad574d094245c256",
       "status" : "failed",
       "statusDetails" : "Expect $$(`.c-latest__posts .c-latest__title`) to have text containing\n                \n                Expected: \"EFDAF\"\n                Received: undefined",
       "time" : {
         "start" : 1632148777673,
         "stop" : 1632148805327,
         "duration" : 27654
-      }
-    } ]
-  },
-  "aa7031bc96339075b9f5cf5d09ed4b06" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "66d2718d6e9c1d0c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148558960,
-        "stop" : 1632148570779,
-        "duration" : 11819
-      }
-    } ]
-  },
-  "f23eb5599b850a44bccffe6204657f62" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8f00f794f5d8e53",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148893027,
-        "stop" : 1632148902499,
-        "duration" : 9472
       }
     } ]
   },
@@ -378,12 +340,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca0d99db329ded80",
+      "uid" : "7d414df1377e7e9a",
       "status" : "passed",
       "time" : {
         "start" : 1632148824370,
         "stop" : 1632148830307,
         "duration" : 5937
+      }
+    } ]
+  },
+  "aa7031bc96339075b9f5cf5d09ed4b06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb8f3fe9e4b1803d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148558960,
+        "stop" : 1632148570779,
+        "duration" : 11819
       }
     } ]
   },
@@ -397,7 +378,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3273cc11144fd3b",
+      "uid" : "22247602a15b002c",
       "status" : "broken",
       "statusDetails" : "element (\".formstatus error\") still not displayed after 10000ms",
       "time" : {
@@ -407,7 +388,7 @@
       }
     } ]
   },
-  "e9a631cdf73b70bd248c50193543b79e" : {
+  "f23eb5599b850a44bccffe6204657f62" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -417,12 +398,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad1923c5fc4e931e",
+      "uid" : "928ea5d8c94479f",
       "status" : "passed",
       "time" : {
-        "start" : 1632148841104,
-        "stop" : 1632148848649,
-        "duration" : 7545
+        "start" : 1632148893027,
+        "stop" : 1632148902499,
+        "duration" : 9472
       }
     } ]
   },
@@ -436,7 +417,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae241ccff3b2535",
+      "uid" : "d77f182d2a5ee57b",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
@@ -446,23 +427,22 @@
       }
     } ]
   },
-  "684c51687ffdc0327aab8b8beeab2d1d" : {
+  "e9a631cdf73b70bd248c50193543b79e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f34d3bb3ebe14e63",
-      "status" : "broken",
-      "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
+      "uid" : "c86c56c28a4c1638",
+      "status" : "passed",
       "time" : {
-        "start" : 1632148757601,
-        "stop" : 1632148767631,
-        "duration" : 10030
+        "start" : 1632148841104,
+        "stop" : 1632148848649,
+        "duration" : 7545
       }
     } ]
   },
@@ -476,12 +456,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e6eeac281de31efb",
+      "uid" : "65c0d1ce8230c4a2",
       "status" : "passed",
       "time" : {
         "start" : 1632148693354,
         "stop" : 1632148701597,
         "duration" : 8243
+      }
+    } ]
+  },
+  "684c51687ffdc0327aab8b8beeab2d1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "649e7ef70f89aded",
+      "status" : "broken",
+      "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1632148757601,
+        "stop" : 1632148767631,
+        "duration" : 10030
       }
     } ]
   },
@@ -495,7 +495,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b951206c0f77bb3e",
+      "uid" : "972b49c607320cbb",
       "status" : "passed",
       "time" : {
         "start" : 1632148842786,
@@ -514,7 +514,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb502c33ceb86f36",
+      "uid" : "86a3aa1363018c89",
       "status" : "passed",
       "time" : {
         "start" : 1632148676848,
@@ -533,7 +533,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "484647db64cc6d5b",
+      "uid" : "1e0de4a01bc8d5f8",
       "status" : "passed",
       "time" : {
         "start" : 1632148706160,
@@ -552,7 +552,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ff6c5cdbf017efb",
+      "uid" : "be072afdcf3db29e",
       "status" : "broken",
       "statusDetails" : "Cannot read property 'waitForDisplayed' of undefined",
       "time" : {
@@ -572,7 +572,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d96bf903c05f185",
+      "uid" : "f6d5ddf6d5e46a5",
       "status" : "passed",
       "time" : {
         "start" : 1632148906564,
@@ -591,31 +591,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "85257ef41690e64a",
+      "uid" : "fcf4cc34fea63865",
       "status" : "passed",
       "time" : {
         "start" : 1632148925118,
         "stop" : 1632148929234,
         "duration" : 4116
-      }
-    } ]
-  },
-  "798be1eb5b0731ea87027bd61a46a1a4" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dc54b946c1c19ae3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148732669,
-        "stop" : 1632148740129,
-        "duration" : 7460
       }
     } ]
   },
@@ -629,12 +610,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df301dd60f9238b0",
+      "uid" : "36b1e8fe5646302b",
       "status" : "passed",
       "time" : {
         "start" : 1632148816711,
         "stop" : 1632148818313,
         "duration" : 1602
+      }
+    } ]
+  },
+  "798be1eb5b0731ea87027bd61a46a1a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "926f394e85c8d501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148732669,
+        "stop" : 1632148740129,
+        "duration" : 7460
       }
     } ]
   },
@@ -648,7 +648,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "161e839b24dacd89",
+      "uid" : "529a0389fc8e6d00",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
@@ -668,7 +668,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e567e3cb0d1c974",
+      "uid" : "7a52158b8fdbd5db",
       "status" : "broken",
       "statusDetails" : "element (\".qa-tablet-header__burger-menu\") still not displayed after 10000ms",
       "time" : {
@@ -688,7 +688,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dc640352e7f7e9e7",
+      "uid" : "662c97445316804f",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
@@ -708,7 +708,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3b4cb431dcfb015d",
+      "uid" : "c5e9399934a6daa",
       "status" : "passed",
       "time" : {
         "start" : 1632148811955,
@@ -727,7 +727,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a65d685b8ac9174",
+      "uid" : "2f31072b2b246044",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
@@ -747,7 +747,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aee673c8a551a9a6",
+      "uid" : "2fa909ff3bc93c48",
       "status" : "passed",
       "time" : {
         "start" : 1632148902499,
@@ -766,7 +766,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b462c647f9244f9",
+      "uid" : "75d2abf77ffc5fc3",
       "status" : "passed",
       "time" : {
         "start" : 1632148612263,
@@ -785,32 +785,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a67d2d0d9d0a180",
+      "uid" : "954526c7f4183133",
       "status" : "broken",
       "statusDetails" : "element (\".formstatus error\") still not displayed after 10000ms",
       "time" : {
         "start" : 1632148912903,
         "stop" : 1632148925109,
         "duration" : 12206
-      }
-    } ]
-  },
-  "99c390a21c29af18163ae5b9d34d77c7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f5b6abcd9b0e4b2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1632148677336,
-        "stop" : 1632148693354,
-        "duration" : 16018
       }
     } ]
   },
@@ -824,7 +805,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dcbe33583cb47308",
+      "uid" : "b8962125d84a0b37",
       "status" : "passed",
       "time" : {
         "start" : 1632148766858,
@@ -843,13 +824,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af4d80b3d70cd9c6",
+      "uid" : "eeec072790614dc7",
       "status" : "broken",
       "statusDetails" : "element (\".qa-gallery-category\") still not displayed after 10000ms",
       "time" : {
         "start" : 1632148722689,
         "stop" : 1632148745286,
         "duration" : 22597
+      }
+    } ]
+  },
+  "99c390a21c29af18163ae5b9d34d77c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5ac668db8ec9a2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632148677336,
+        "stop" : 1632148693354,
+        "duration" : 16018
       }
     } ]
   }

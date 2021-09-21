@@ -1,105 +1,5 @@
 [ {
-  "uid" : "6853b8f2b3c3193e",
-  "name" : "Subscribe",
-  "time" : {
-    "start" : 1632148613118,
-    "stop" : 1632148622527,
-    "duration" : 9409
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc54b946c1c19ae3",
-  "name" : "Menu",
-  "time" : {
-    "start" : 1632148732669,
-    "stop" : 1632148740129,
-    "duration" : 7460
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b4cb431dcfb015d",
-  "name" : "Search with valid word",
-  "time" : {
-    "start" : 1632148811955,
-    "stop" : 1632148816710,
-    "duration" : 4755
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b462c647f9244f9",
-  "name" : "Category",
-  "time" : {
-    "start" : 1632148612263,
-    "stop" : 1632148631811,
-    "duration" : 19548
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d012d1c31a392f56",
-  "name" : "Editor`s Picks",
-  "time" : {
-    "start" : 1632148878379,
-    "stop" : 1632148890402,
-    "duration" : 12023
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a67d2d0d9d0a180",
-  "name" : "Subscribe with invalid email on the articles page ",
-  "time" : {
-    "start" : 1632148912903,
-    "stop" : 1632148925109,
-    "duration" : 12206
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "484647db64cc6d5b",
-  "name" : "Category",
-  "time" : {
-    "start" : 1632148706160,
-    "stop" : 1632148722688,
-    "duration" : 16528
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a62d8c51ba606c47",
-  "name" : "Articles for latest category",
-  "time" : {
-    "start" : 1632148777673,
-    "stop" : 1632148805327,
-    "duration" : 27654
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "69eeb359df1c83d8",
-  "name" : "Trending On Honest To Paws",
-  "time" : {
-    "start" : 1632148570781,
-    "stop" : 1632148582752,
-    "duration" : 11971
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6eeac281de31efb",
-  "name" : "Social media",
-  "time" : {
-    "start" : 1632148693354,
-    "stop" : 1632148701597,
-    "duration" : 8243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca0d99db329ded80",
+  "uid" : "7d414df1377e7e9a",
   "name" : "Subscribe on the articles page",
   "time" : {
     "start" : 1632148824370,
@@ -109,117 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aee673c8a551a9a6",
-  "name" : "Search with invalid word",
-  "time" : {
-    "start" : 1632148902499,
-    "stop" : 1632148903989,
-    "duration" : 1490
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dcbe33583cb47308",
-  "name" : "Articles for good category",
-  "time" : {
-    "start" : 1632148766858,
-    "stop" : 1632148775243,
-    "duration" : 8385
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24605fc5121caa30",
-  "name" : "Social media",
-  "time" : {
-    "start" : 1632148598014,
-    "stop" : 1632148606106,
-    "duration" : 8092
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1623a4e7b875ae1",
-  "name" : "Editor`s Picks",
-  "time" : {
-    "start" : 1632148805328,
-    "stop" : 1632148805381,
-    "duration" : 53
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9e567e3cb0d1c974",
-  "name" : "Hamburger Menu first part",
-  "time" : {
-    "start" : 1632148745440,
-    "stop" : 1632148757601,
-    "duration" : 12161
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f2c7698eaa62eeba",
-  "name" : "Submenu",
-  "time" : {
-    "start" : 1632148740130,
-    "stop" : 1632148745440,
-    "duration" : 5310
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "df301dd60f9238b0",
-  "name" : "Search with invalid word",
-  "time" : {
-    "start" : 1632148816711,
-    "stop" : 1632148818313,
-    "duration" : 1602
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cb502c33ceb86f36",
-  "name" : "Articles for good category",
-  "time" : {
-    "start" : 1632148676848,
-    "stop" : 1632148695720,
-    "duration" : 18872
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4a03001c830e5ea",
-  "name" : "Footer",
-  "time" : {
-    "start" : 1632148767631,
-    "stop" : 1632148771024,
-    "duration" : 3393
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af4d80b3d70cd9c6",
-  "name" : "Articles for cute category",
-  "time" : {
-    "start" : 1632148722689,
-    "stop" : 1632148745286,
-    "duration" : 22597
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "31fd2ab838c87c1a",
-  "name" : "Trending On Honest To Paws",
-  "time" : {
-    "start" : 1632148622528,
-    "stop" : 1632148677336,
-    "duration" : 54808
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae241ccff3b2535",
+  "uid" : "d77f182d2a5ee57b",
   "name" : "Articles for cute category",
   "time" : {
     "start" : 1632148631817,
@@ -229,117 +19,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "9ca89ce940333c77",
-  "name" : "Submenu",
-  "time" : {
-    "start" : 1632148806743,
-    "stop" : 1632148818521,
-    "duration" : 11778
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a34bc638a735d95",
-  "name" : "Click on the all articles",
-  "time" : {
-    "start" : 1632148539740,
-    "stop" : 1632148609837,
-    "duration" : 70097
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3273cc11144fd3b",
-  "name" : "Subscribe with invalid email on the articles page ",
-  "time" : {
-    "start" : 1632148830310,
-    "stop" : 1632148842786,
-    "duration" : 12476
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "161e839b24dacd89",
-  "name" : "Articles for fuuny category",
-  "time" : {
-    "start" : 1632148745291,
-    "stop" : 1632148766853,
-    "duration" : 21562
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "85257ef41690e64a",
-  "name" : "Subscribe after press email button",
-  "time" : {
-    "start" : 1632148925118,
-    "stop" : 1632148929234,
-    "duration" : 4116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad1923c5fc4e931e",
-  "name" : "Footer",
-  "time" : {
-    "start" : 1632148841104,
-    "stop" : 1632148848649,
-    "duration" : 7545
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15444e7e3183997f",
-  "name" : "More from Honest To Paws",
-  "time" : {
-    "start" : 1632148582752,
-    "stop" : 1632148598011,
-    "duration" : 15259
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d96bf903c05f185",
-  "name" : "Subscribe on the articles page",
-  "time" : {
-    "start" : 1632148906564,
-    "stop" : 1632148912902,
-    "duration" : 6338
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc640352e7f7e9e7",
-  "name" : "Articles for fuuny category",
-  "time" : {
-    "start" : 1632148653836,
-    "stop" : 1632148676839,
-    "duration" : 23003
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a65d685b8ac9174",
-  "name" : "Articles for omg category",
-  "time" : {
-    "start" : 1632148775243,
-    "stop" : 1632148797205,
-    "duration" : 21962
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7ff6c5cdbf017efb",
-  "name" : "Click on the all articles",
-  "time" : {
-    "start" : 1632148543209,
-    "stop" : 1632148543331,
-    "duration" : 122
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "66d2718d6e9c1d0c",
+  "uid" : "cb8f3fe9e4b1803d",
   "name" : "Subscribe",
   "time" : {
     "start" : 1632148558960,
@@ -349,27 +29,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5b6abcd9b0e4b2",
-  "name" : "More from Honest To Paws",
+  "uid" : "eeec072790614dc7",
+  "name" : "Articles for cute category",
   "time" : {
-    "start" : 1632148677336,
-    "stop" : 1632148693354,
-    "duration" : 16018
+    "start" : 1632148722689,
+    "stop" : 1632148745286,
+    "duration" : 22597
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "ef2c7776721600fb",
-  "name" : "Articles for latest category",
-  "time" : {
-    "start" : 1632148851311,
-    "stop" : 1632148878375,
-    "duration" : 27064
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "50a6a9823100f585",
+  "uid" : "2d260504c1b142fc",
   "name" : "Hamburger menu last part",
   "time" : {
     "start" : 1632148830347,
@@ -379,7 +49,137 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "b951206c0f77bb3e",
+  "uid" : "edaadb12c6d2a892",
+  "name" : "Editor`s Picks",
+  "time" : {
+    "start" : 1632148878379,
+    "stop" : 1632148890402,
+    "duration" : 12023
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "926f394e85c8d501",
+  "name" : "Menu",
+  "time" : {
+    "start" : 1632148732669,
+    "stop" : 1632148740129,
+    "duration" : 7460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dec59e6fd62a402d",
+  "name" : "More from Honest To Paws",
+  "time" : {
+    "start" : 1632148582752,
+    "stop" : 1632148598011,
+    "duration" : 15259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ccdd3a573719a69",
+  "name" : "Submenu",
+  "time" : {
+    "start" : 1632148740130,
+    "stop" : 1632148745440,
+    "duration" : 5310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8c4738764acfd8b",
+  "name" : "Trending On Honest To Paws",
+  "time" : {
+    "start" : 1632148570781,
+    "stop" : 1632148582752,
+    "duration" : 11971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65c0d1ce8230c4a2",
+  "name" : "Social media",
+  "time" : {
+    "start" : 1632148693354,
+    "stop" : 1632148701597,
+    "duration" : 8243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6e7b280279e9208",
+  "name" : "Click on the all articles",
+  "time" : {
+    "start" : 1632148539740,
+    "stop" : 1632148609837,
+    "duration" : 70097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "529a0389fc8e6d00",
+  "name" : "Articles for fuuny category",
+  "time" : {
+    "start" : 1632148745291,
+    "stop" : 1632148766853,
+    "duration" : 21562
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be072afdcf3db29e",
+  "name" : "Click on the all articles",
+  "time" : {
+    "start" : 1632148543209,
+    "stop" : 1632148543331,
+    "duration" : 122
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b8962125d84a0b37",
+  "name" : "Articles for good category",
+  "time" : {
+    "start" : 1632148766858,
+    "stop" : 1632148775243,
+    "duration" : 8385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b34947a5df46a6c5",
+  "name" : "Subscribe",
+  "time" : {
+    "start" : 1632148613118,
+    "stop" : 1632148622527,
+    "duration" : 9409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66b004305a62f7c4",
+  "name" : "Editor`s Picks",
+  "time" : {
+    "start" : 1632148805328,
+    "stop" : 1632148805381,
+    "duration" : 53
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "954526c7f4183133",
+  "name" : "Subscribe with invalid email on the articles page ",
+  "time" : {
+    "start" : 1632148912903,
+    "stop" : 1632148925109,
+    "duration" : 12206
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "972b49c607320cbb",
   "name" : "Subscribe after press email button",
   "time" : {
     "start" : 1632148842786,
@@ -389,37 +189,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f00f794f5d8e53",
-  "name" : "Search with valid word",
-  "time" : {
-    "start" : 1632148893027,
-    "stop" : 1632148902499,
-    "duration" : 9472
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f34d3bb3ebe14e63",
-  "name" : "Hamburger menu last part",
-  "time" : {
-    "start" : 1632148757601,
-    "stop" : 1632148767631,
-    "duration" : 10030
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "466f1474c73af99e",
-  "name" : "Hamburger Menu first part",
-  "time" : {
-    "start" : 1632148818522,
-    "stop" : 1632148830346,
-    "duration" : 11824
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b3d6ae0b974f7158",
+  "uid" : "7f67ffb39464ba5",
   "name" : "Menu",
   "time" : {
     "start" : 1632148800387,
@@ -429,7 +199,157 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1411261a5b042c89",
+  "uid" : "662c97445316804f",
+  "name" : "Articles for fuuny category",
+  "time" : {
+    "start" : 1632148653836,
+    "stop" : 1632148676839,
+    "duration" : 23003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf4cc34fea63865",
+  "name" : "Subscribe after press email button",
+  "time" : {
+    "start" : 1632148925118,
+    "stop" : 1632148929234,
+    "duration" : 4116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7c4b75a845055eb",
+  "name" : "Hamburger Menu first part",
+  "time" : {
+    "start" : 1632148818522,
+    "stop" : 1632148830346,
+    "duration" : 11824
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75d2abf77ffc5fc3",
+  "name" : "Category",
+  "time" : {
+    "start" : 1632148612263,
+    "stop" : 1632148631811,
+    "duration" : 19548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e0de4a01bc8d5f8",
+  "name" : "Category",
+  "time" : {
+    "start" : 1632148706160,
+    "stop" : 1632148722688,
+    "duration" : 16528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22247602a15b002c",
+  "name" : "Subscribe with invalid email on the articles page ",
+  "time" : {
+    "start" : 1632148830310,
+    "stop" : 1632148842786,
+    "duration" : 12476
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ab96c966c093506",
+  "name" : "Footer",
+  "time" : {
+    "start" : 1632148767631,
+    "stop" : 1632148771024,
+    "duration" : 3393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d007cc7640aac598",
+  "name" : "Trending On Honest To Paws",
+  "time" : {
+    "start" : 1632148622528,
+    "stop" : 1632148677336,
+    "duration" : 54808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a3aa1363018c89",
+  "name" : "Articles for good category",
+  "time" : {
+    "start" : 1632148676848,
+    "stop" : 1632148695720,
+    "duration" : 18872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f31072b2b246044",
+  "name" : "Articles for omg category",
+  "time" : {
+    "start" : 1632148775243,
+    "stop" : 1632148797205,
+    "duration" : 21962
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f6d5ddf6d5e46a5",
+  "name" : "Subscribe on the articles page",
+  "time" : {
+    "start" : 1632148906564,
+    "stop" : 1632148912902,
+    "duration" : 6338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36b1e8fe5646302b",
+  "name" : "Search with invalid word",
+  "time" : {
+    "start" : 1632148816711,
+    "stop" : 1632148818313,
+    "duration" : 1602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5ac668db8ec9a2f",
+  "name" : "More from Honest To Paws",
+  "time" : {
+    "start" : 1632148677336,
+    "stop" : 1632148693354,
+    "duration" : 16018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c86c56c28a4c1638",
+  "name" : "Footer",
+  "time" : {
+    "start" : 1632148841104,
+    "stop" : 1632148848649,
+    "duration" : 7545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "649e7ef70f89aded",
+  "name" : "Hamburger menu last part",
+  "time" : {
+    "start" : 1632148757601,
+    "stop" : 1632148767631,
+    "duration" : 10030
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96995ba69d92671b",
   "name" : "Articles for omg category",
   "time" : {
     "start" : 1632148695720,
@@ -437,5 +357,85 @@
     "duration" : 28800
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1329313216d2771",
+  "name" : "Submenu",
+  "time" : {
+    "start" : 1632148806743,
+    "stop" : 1632148818521,
+    "duration" : 11778
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64d51db7a3ad21d2",
+  "name" : "Articles for latest category",
+  "time" : {
+    "start" : 1632148851311,
+    "stop" : 1632148878375,
+    "duration" : 27064
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5e9399934a6daa",
+  "name" : "Search with valid word",
+  "time" : {
+    "start" : 1632148811955,
+    "stop" : 1632148816710,
+    "duration" : 4755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "928ea5d8c94479f",
+  "name" : "Search with valid word",
+  "time" : {
+    "start" : 1632148893027,
+    "stop" : 1632148902499,
+    "duration" : 9472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fa909ff3bc93c48",
+  "name" : "Search with invalid word",
+  "time" : {
+    "start" : 1632148902499,
+    "stop" : 1632148903989,
+    "duration" : 1490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a52158b8fdbd5db",
+  "name" : "Hamburger Menu first part",
+  "time" : {
+    "start" : 1632148745440,
+    "stop" : 1632148757601,
+    "duration" : 12161
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7f81b1d11ad09384",
+  "name" : "Social media",
+  "time" : {
+    "start" : 1632148598014,
+    "stop" : 1632148606106,
+    "duration" : 8092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad574d094245c256",
+  "name" : "Articles for latest category",
+  "time" : {
+    "start" : 1632148777673,
+    "stop" : 1632148805327,
+    "duration" : 27654
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
