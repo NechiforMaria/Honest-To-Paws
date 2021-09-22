@@ -3,7 +3,7 @@ import CutePage from "../page-objects/pages/CutePage";
 import SubscribePage from "../page-objects/pages/SubscribePage";
 const { default: HomePage } = require("../page-objects/pages/Homepage");
 
-describe("Check the widgets on the articles page", () => {
+describe("Check widgets functionality on the articles pages ", () => {
   beforeEach(async () => {
     HomePage.openHomePage();
     Menu.waitForExistHeader();
@@ -11,7 +11,7 @@ describe("Check the widgets on the articles page", () => {
     Menu.clickOnApproveButtonFirefox();
   });
 
-  it("Subscribe", async () => {
+  it("Subscribe with valid email on the articles pages ", async () => {
     await await Menu.cuteButton.waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).click();
