@@ -23,8 +23,8 @@ describe("Check the search functionality", async () => {
   it("Search with invalid word", async () => {
     await (await Menu.searchButton).waitForDisplayed();
     await (await Menu.searchButton).click();
-    const validTextToSearch = "qwq";
-    await (await Menu.searchButton).setValue(validTextToSearch);
+    const invalidTextToSearch = "qwq";
+    await (await Menu.searchButton).setValue(invalidTextToSearch);
     await (await Menu.searchIcon).waitForDisplayed();
     await (await Menu.searchIcon).click();
     await expect(await Menu.searchResultBoxMessage).toHaveTextContaining(
