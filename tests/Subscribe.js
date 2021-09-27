@@ -1,19 +1,18 @@
 import Menu from "../page-objects/components/Menu";
-import AllArticles from "../page-objects/pages/AllArticles";
 import CutePage from "../page-objects/pages/CutePage";
 import Homepage from "../page-objects/pages/Homepage";
 import SubscribePage from "../page-objects/pages/SubscribePage";
 
-describe("Subscribe", () => {
-  beforeEach(async () => {
+describe("Check the subscribe functionality", () => {
+  beforeEach(() => {
     Homepage.openHomePage();
     Menu.waitForExistHeader();
     Menu.clickOnApproveButton();
     Menu.clickOnApproveButtonFirefox();
   });
 
-  it("Subscribe on the articles page", async () => {
-    await (await Menu.cuteButton).waitForDisplayed();
+  it("Check the subscribe functionality with a valid email on the articles page", async () => {
+    await await Menu.cuteButton.waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).waitForDisplayed();
     await (
@@ -23,20 +22,20 @@ describe("Subscribe", () => {
     await expect(await SubscribePage.confirmSubscribe).toBeDisplayed();
   });
 
-  it("Subscribe with invalid email on the articles page ", async () => {
-    await (await Menu.cuteButton).waitForDisplayed();
+  it("Check the subscribe functionality with invalid email on the articles page ", async () => {
+    await await Menu.cuteButton.waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.subscribeEmailInput).waitForDisplayed();
     await (await CutePage.subscribeEmailInput).addValue("as@u.t.r.t.y");
     await (await CutePage.emailButton).click();
-    await (await SubscribePage.error).waitForDisplayed();
+    await (await SubscribePage.error).waitForDisplayed({ timeout: 500 });
     await expect(await SubscribePage.error).toHaveTextContaining(
       "There are errors below"
     );
   });
 
   it("Subscribe after press email button", async () => {
-    await (await Menu.cuteButton).waitForDisplayed();
+    await await Menu.cuteButton.waitForDisplayed();
     await (await Menu.cuteButton).click();
     await (await CutePage.emailButton).waitForDisplayed();
     await (await CutePage.emailButton).click();

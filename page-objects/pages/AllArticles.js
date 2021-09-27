@@ -1,13 +1,16 @@
 import Homepage from "./Homepage";
 
 class AllArticles {
+  get titleArticles() {
+    return $$(".c-link__cover");
+  }
   // async allArticlesLinks() {
-  //   const titleArticles = await $$(".c-link__cover");
-  //   await titleArticles.forEach(async (titleArticles) => {
+  //   const titleArticles = await $$(".c-link__cover a");
+  //   await titleArticles.forEach(async (titleArticle) => {
   //     {
-  //       await titleArticles.click();
-  //       console.log(titleArticles);
-  //       Homepage.backPage();
+  //       await titleArticle.click();
+  //       console.log(titleArticle);
+  //       await Homepage.backPage();
   //     }
   //   });
   // }
