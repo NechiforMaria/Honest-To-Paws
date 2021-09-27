@@ -10,7 +10,7 @@ describe(`Click on the articles for latest section and editor' picks`, () => {
   });
 
   it("Click on the articles for latest section first part", async () => {
-    await HomePage.scrollDown100();
+    await HomePage.scrollDownToPixel100();
     await await HomePage.latestArticle1.waitForDisplayed();
     const title = await HomePage.allTitleLatestWidget();
 
@@ -22,7 +22,7 @@ describe(`Click on the articles for latest section and editor' picks`, () => {
     await expect(await title1).toHaveTextContaining(validTextToSearch);
     await HomePage.backPage();
 
-    await HomePage.scrollDown100();
+    await HomePage.scrollDownToPixel100();
     const secondTitle = await title[1];
     const validTextToSearch2 = await secondTitle.getText();
     await (await HomePage.latestArticle2).waitForDisplayed();
@@ -34,7 +34,7 @@ describe(`Click on the articles for latest section and editor' picks`, () => {
   });
 
   it("Click on the articles for latest section last part", async () => {
-    await HomePage.scrollDown100();
+    await HomePage.scrollDownToPixel100();
     const title = await HomePage.allTitleLatestWidget();
     const thirdTitle = await title[2];
     const validTextToSearch3 = await thirdTitle.getText();
@@ -45,7 +45,7 @@ describe(`Click on the articles for latest section and editor' picks`, () => {
     await expect(await title3).toHaveTextContaining(validTextToSearch3);
     await HomePage.backPage();
 
-    await HomePage.scrollDown100();
+    await HomePage.scrollDownToPixel100();
     const fourthTitle = await title[3];
     const validTextToSearch4 = await fourthTitle.getText();
     await (await HomePage.latestArticle4).waitForDisplayed();
@@ -56,7 +56,7 @@ describe(`Click on the articles for latest section and editor' picks`, () => {
   });
 
   it("Check the Editor`s Picks widget functionality", async () => {
-    const alltitle = await HomePage.allTitleEditorsWidget();
+    const allTitle = await HomePage.allTitleEditorsWidget();
     const firstTitle = await alltitle[0];
     const validTextToSearch = await firstTitle.getText();
     await (await HomePage.widgetEditorsFirstPost).waitForDisplayed();
