@@ -56,7 +56,7 @@ describe("Check the functionality for: menu,submenu,hamurgermenu and footer", ()
     await expect(await Menu.title).toHaveText("Advertising Interest");
   });
 
-  it("Check the hamburger menu first part functionality", async () => {
+  it("Check the first four buttons of the hamburger menu functionality", async () => {
     await HomePage.scrollDown();
     await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
     await (await HamburgerMenu.hamburgerMenuButton).click();
@@ -85,7 +85,7 @@ describe("Check the functionality for: menu,submenu,hamurgermenu and footer", ()
     await expect(await Menu.header).toHaveText("OMG");
   });
 
-  it("Check the hamburger menu last part functionality", async () => {
+  it("Check the last four buttons of the hamburger menu functionality", async () => {
     await HomePage.scrollDown();
     await (await HamburgerMenu.hamburgerMenuButton).waitForDisplayed();
     await (await HamburgerMenu.hamburgerMenuButton).click();
@@ -121,7 +121,7 @@ describe("Check the functionality for: menu,submenu,hamurgermenu and footer", ()
     await (await HamburgerMenu.closeMenu).click();
   });
 
-  it("Check the first part of footer functionality", async () => {
+  it("Check the first two buttons of the footer functionality", async () => {
     await HomePage.scrollDown();
     await (await HomePage.aboutFooterButton).waitForClickable();
     await (await HomePage.aboutFooterButton).click();
@@ -137,7 +137,7 @@ describe("Check the functionality for: menu,submenu,hamurgermenu and footer", ()
     await HomePage.backPage();
   });
 
-  it("Check the last part of footer functionality", async () => {
+  it("Check the last two buttons of the footer functionality", async () => {
     await HomePage.scrollDown();
     await (await HomePage.dmcaFooterButton).waitForClickable();
     await (await HomePage.dmcaFooterButton).click();
