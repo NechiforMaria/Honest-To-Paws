@@ -32,7 +32,7 @@ class Subscribe {
   }
 
   get error() {
-    return $(".formstatus error");
+    return $(".error");
   }
 
   createValidEmail() {
