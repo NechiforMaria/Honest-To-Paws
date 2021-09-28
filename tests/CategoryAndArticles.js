@@ -162,7 +162,7 @@ describe("Check functionality of categories and functionality of articles for ca
     await expect(await AllArticles.galleryCategory).toHaveText("Omg");
   });
 
-  it("Click on all see more button", async () => {
+  it("Click on all `see more` buttons", async () => {
     await await HomePage.seeMoreCuteButton.waitForDisplayed();
     await (await HomePage.seeMoreCuteButton).click();
     await expect(await Menu.header).toHaveText("CUTE");
