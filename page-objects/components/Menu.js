@@ -79,8 +79,8 @@ class Menu {
     return $(".c-search-result-box__message");
   }
 
-  waitForExistHeader() {
-    this.header.waitForDisplayed();
+  async waitForExistHeader() {
+    await this.header.waitForDisplayed();
   }
 
   clickOnApproveButton() {

@@ -3,10 +3,18 @@ class HomePage {
     browser.url("https://astage.honesttopaws.com");
   }
 
-  backPage() {
+  async backPage() {
     browser.execute(function () {
       window.history.go(-2);
     });
+  }
+
+  async scrollDown() {
+    await browser.execute(() => window.scrollTo(0, 500));
+  }
+
+  async scrollDownToPixel100() {
+    await browser.execute(() => window.scrollTo(0, 100));
   }
 
   get cuteCategory() {
@@ -151,6 +159,10 @@ class HomePage {
 
   get titleArticle() {
     return $(".qa-placement--content");
+  }
+
+  get headerHeadline() {
+    return $(".qa-gallery-card-header__headline");
   }
 
   get footerContainer() {
