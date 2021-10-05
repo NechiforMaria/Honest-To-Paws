@@ -24,11 +24,11 @@
     "@wdio/mocha-framework": "^7.11.1",
     "@wdio/selenium-standalone-service": "^7.12.5",
     "@wdio/spec-reporter": "^7.10.1",
-    "chromedriver": "^92.0.2",
-    "wdio-chromedriver-service": "^7.2.0"
+    "chromedriver": "^92.0.2"
   },
   "dependencies": {
     "allure-commandline": "^2.13.8",
-    "geckodriver": "^2.0.4"
+    "geckodriver": "^2.0.4",
+    "wdio-chromedriver-service": "^7.2.2"
   }
 }
