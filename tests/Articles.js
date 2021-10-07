@@ -1,8 +1,9 @@
 import Menu from "../page-objects/components/Menu";
+import AllArticles from "../page-objects/pages/AllArticles";
 import Homepage from "../page-objects/pages/Homepage";
 import HomePage from "../page-objects/pages/Homepage";
 
-describe("All the articles", () => {
+describe("Click on all articles from the cute page", () => {
   beforeEach(async () => {
     browser.url("https://astage.honesttopaws.com/category/cute");
     Menu.waitForExistHeader();
@@ -10,9 +11,8 @@ describe("All the articles", () => {
     Menu.clickOnApproveButtonFirefox();
   });
 
-  it("Click on all articles", async () => {
-    const articles = await $$(".c-post__content .c-link__cover");
-    console.log("articles ", await articles.length);
+  it("Check if can click on the articles and if they open correctly", async () => {
+    const articles = AllArticles.articles;
     let article;
     let articleHref;
     for await (article of articles) {
