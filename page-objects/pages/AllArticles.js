@@ -4,18 +4,7 @@ class AllArticles {
   get titleArticles() {
     return $$(".c-link__cover");
   }
-  // async allArticlesLinks() {
-  //   const titleArticles = await $$(".c-link__cover a");
-  //   await titleArticles.forEach(async (titleArticle) => {
-  //     {
-  //       await titleArticle.click();
-  //       console.log(titleArticle);
-  //       await Homepage.backPage();
-  //     }
-  //   });
-  // }
 
-  //clickOnAllArticles() {}
   get firstArticle() {
     return $$(".c-link__cover")[0];
   }
@@ -58,6 +47,10 @@ class AllArticles {
 
   get galleryCategory() {
     return $(".qa-gallery-category");
+  }
+
+  get articles() {
+    return $$(".c-post__content .c-link__cover");
   }
 }
 export default new AllArticles();
