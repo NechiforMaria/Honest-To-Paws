@@ -20,7 +20,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ["./tests/**.js"],
+  specs: ["./tests/Search.js"],
   // Patterns to exclude.
   exclude: [
     //'path/to/excluded/files'
@@ -225,8 +225,13 @@ exports.config = {
    * @param {Array.<Object>} capabilities list of capabilities details
    * @param {Array.<String>} specs List of spec file paths that are to be run
    */
-  // beforeSession: function (config, capabilities, specs) {
-  // },
+
+  beforeSession: function (config, capabilities, specs) {
+    const DEVICE = process.env.DEVICE || "tablet";
+    global.DEVICE = DEVICE;
+    console.log(DEVICE);
+  },
+
   /**
    * Gets executed before test execution begins. At this point you can access to all global
    * variables like `browser`. It is the perfect place to define custom commands.

@@ -3,6 +3,21 @@ class HomePage {
     browser.url("https://astage.honesttopaws.com");
   }
 
+  openDevice(URL) {
+    switch (DEVICE) {
+      case "desktop":
+        browser.maximizeWindow();
+        break;
+      case "mobile":
+        browser.setWindowSize(375, 812);
+        break;
+      case "tablet":
+        browser.setWindowSize(1024, 1366);
+        break;
+    }
+    browser.url(URL);
+  }
+
   async backPage() {
     browser.execute(function () {
       window.history.go(-2);

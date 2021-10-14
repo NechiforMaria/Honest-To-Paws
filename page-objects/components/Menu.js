@@ -47,12 +47,20 @@ class Menu {
     return $$(".qa-navbar__item")[8];
   }
 
-  get searchButton() {
-    return $(".qa-search__input");
+  get searchInput() {
+    if (DEVICE == "tablet" || DEVICE == "mobile")
+      return $(".qa-tablet-search__input");
+    else if (DEVICE == "desktop") return $(".qa-search__input");
+  }
+
+  get searchTabletInput() {
+    return $(".qa-tablet__search");
   }
 
   get searchIcon() {
-    return $(".qa-search-icon");
+    if (DEVICE == "tablet" || DEVICE == "mobile")
+      return $(".qa-tablet__search-icon");
+    else if (DEVICE == "desktop") return $(".qa-search-icon");
   }
 
   get header() {
@@ -71,16 +79,21 @@ class Menu {
     return $(".c-post__title");
   }
 
-  get mobileMenu() {
-    return $(".qa-tablet-header__menu");
-  }
-
   get searchResultBoxMessage() {
     return $(".c-search-result-box__message");
   }
 
+  get mobileMenu() {
+    return $(".qa-tablet-header__menu");
+  }
+
   async waitForExistHeader() {
-    await this.header.waitForDisplayed();
+    if (this.header.isExisting) await this.header.waitForDisplayed();
+  }
+
+  async waitForExistLogo() {
+    const logo = $(".qa-tablet-header__logo");
+    logo.waitForDisplayed();
   }
 
   clickOnApproveButton() {
