@@ -6,12 +6,10 @@ DEVICE == "mobile"
   : describe("Check the search functionality", async () => {
       beforeEach(async () => {
         HomePage.openDevice("https://astage.honesttopaws.com");
-        //Homepage.openHomePage();
-        //Menu.waitForExistHeader();
         Menu.clickOnApproveButton();
         Menu.clickOnApproveButtonFirefox();
       });
-      it("Search with valid word", async () => {
+      it("Verify the search functionality with valid word", async () => {
         await HomePage.scrollDownToPixel100();
         await (await Menu.searchIcon).waitForDisplayed();
         await (await Menu.searchIcon).click();
@@ -28,7 +26,7 @@ DEVICE == "mobile"
         );
       });
 
-      it("Search with invalid word", async () => {
+      it("Verify the search functionality with invalid word", async () => {
         await (await Menu.searchIcon).waitForDisplayed();
         await (await Menu.searchIcon).click();
         browser.pause(1000);
